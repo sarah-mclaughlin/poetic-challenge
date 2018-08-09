@@ -2,7 +2,7 @@ const request = require('superagent')
 
 // https://www.zipcodeapi.com/API#distance is the website for the zipCode api
 
-const zipCodesKey = 'hkCt1nW1wF1rppaEmoor7T9G4ta7R5wFSu8l1dokNz8y53gGZHDneWWVosbEYirC'
+const zipCodeApplicationKey = 'uwuFClbXngHsF9fLu8bSjMUf789peuoH4Qch1yL5PGYac1zHYLGmuw1I2l61HBgf'
 
 const sentimentKey = '8zdlxkbEjqmshIg0JzR0qN5Ndqc3p1PXmhXjsnJvX4hNVR2Yio'
 const sentimentUrl = 'https://community-sentiment.p.mashape.com/text/'
@@ -19,7 +19,7 @@ function getSentiment (phrase) {
 }
 
 function getZipCodes (data) {
-  return request.get(`https://www.zipcodeapi.com/rest/${zipCodesKey}/radius.json/${data.zipCode}/${data.distance}/${data.measurement}?minimal`)
+  return request.get(`https://www.zipcodeapi.com/rest/${zipCodeApplicationKey}/radius.json/${data.zipCode}/${data.distance}/${data.units}?minimal`)
     .then(res => {
       return res.body
     })

@@ -1,10 +1,5 @@
-// function getFruits () {
-//   const fruits = ['banana', 'apple', 'feijoa']
-//   return Promise.resolve(fruits)
-// }
-
 const environment = process.env.NODE_ENV || 'development'
-const config = require('./knexfile')[environment]
+const config = require('../knexfile')[environment]
 const connection = require('knex')(config)
 
 function populateDatabase (companies, conn = connection) {

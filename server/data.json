@@ -1,0 +1,2027 @@
+{
+  "companies": [
+    {
+      "id": 0,	
+      "name":	"3M Company",
+      "sector":	"Industrials",
+      "symbol":	"MMM"
+    }
+  ]
+}	
+  
+  1	
+  Name	"A.O. Smith Corp"
+  Sector	"Industrials"
+  Symbol	"AOS"
+  2	
+  Name	"Abbott Laboratories"
+  Sector	"Health Care"
+  Symbol	"ABT"
+  3	
+  Name	"AbbVie Inc."
+  Sector	"Health Care"
+  Symbol	"ABBV"
+  4	
+  Name	"Accenture plc"
+  Sector	"Information Technology"
+  Symbol	"ACN"
+  5	
+  Name	"Activision Blizzard"
+  Sector	"Information Technology"
+  Symbol	"ATVI"
+  6	
+  Name	"Acuity Brands Inc"
+  Sector	"Industrials"
+  Symbol	"AYI"
+  7	
+  Name	"Adobe Systems Inc"
+  Sector	"Information Technology"
+  Symbol	"ADBE"
+  8	
+  Name	"Advance Auto Parts"
+  Sector	"Consumer Discretionary"
+  Symbol	"AAP"
+  9	
+  Name	"Advanced Micro Devices Inc"
+  Sector	"Information Technology"
+  Symbol	"AMD"
+  10	
+  Name	"AES Corp"
+  Sector	"Utilities"
+  Symbol	"AES"
+  11	
+  Name	"Aetna Inc"
+  Sector	"Health Care"
+  Symbol	"AET"
+  12	
+  Name	"Affiliated Managers Group Inc"
+  Sector	"Financials"
+  Symbol	"AMG"
+  13	
+  Name	"AFLAC Inc"
+  Sector	"Financials"
+  Symbol	"AFL"
+  14	
+  Name	"Agilent Technologies Inc"
+  Sector	"Health Care"
+  Symbol	"A"
+  15	
+  Name	"Air Products & Chemicals Inc"
+  Sector	"Materials"
+  Symbol	"APD"
+  16	
+  Name	"Akamai Technologies Inc"
+  Sector	"Information Technology"
+  Symbol	"AKAM"
+  17	
+  Name	"Alaska Air Group Inc"
+  Sector	"Industrials"
+  Symbol	"ALK"
+  18	
+  Name	"Albemarle Corp"
+  Sector	"Materials"
+  Symbol	"ALB"
+  19	
+  Name	"Alexandria Real Estate Equities Inc"
+  Sector	"Real Estate"
+  Symbol	"ARE"
+  20	
+  Name	"Alexion Pharmaceuticals"
+  Sector	"Health Care"
+  Symbol	"ALXN"
+  21	
+  Name	"Align Technology"
+  Sector	"Health Care"
+  Symbol	"ALGN"
+  22	
+  Name	"Allegion"
+  Sector	"Industrials"
+  Symbol	"ALLE"
+  23	
+  Name	"Allergan, Plc"
+  Sector	"Health Care"
+  Symbol	"AGN"
+  24	
+  Name	"Alliance Data Systems"
+  Sector	"Information Technology"
+  Symbol	"ADS"
+  25	
+  Name	"Alliant Energy Corp"
+  Sector	"Utilities"
+  Symbol	"LNT"
+  26	
+  Name	"Allstate Corp"
+  Sector	"Financials"
+  Symbol	"ALL"
+  27	
+  Name	"Alphabet Inc Class A"
+  Sector	"Information Technology"
+  Symbol	"GOOGL"
+  28	
+  Name	"Alphabet Inc Class C"
+  Sector	"Information Technology"
+  Symbol	"GOOG"
+  29	
+  Name	"Altria Group Inc"
+  Sector	"Consumer Staples"
+  Symbol	"MO"
+  30	
+  Name	"Amazon.com Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"AMZN"
+  31	
+  Name	"Ameren Corp"
+  Sector	"Utilities"
+  Symbol	"AEE"
+  32	
+  Name	"American Airlines Group"
+  Sector	"Industrials"
+  Symbol	"AAL"
+  33	
+  Name	"American Electric Power"
+  Sector	"Utilities"
+  Symbol	"AEP"
+  34	
+  Name	"American Express Co"
+  Sector	"Financials"
+  Symbol	"AXP"
+  35	
+  Name	"American International Group, Inc."
+  Sector	"Financials"
+  Symbol	"AIG"
+  36	
+  Name	"American Tower Corp A"
+  Sector	"Real Estate"
+  Symbol	"AMT"
+  37	
+  Name	"American Water Works Company Inc"
+  Sector	"Utilities"
+  Symbol	"AWK"
+  38	
+  Name	"Ameriprise Financial"
+  Sector	"Financials"
+  Symbol	"AMP"
+  39	
+  Name	"AmerisourceBergen Corp"
+  Sector	"Health Care"
+  Symbol	"ABC"
+  40	
+  Name	"AMETEK Inc"
+  Sector	"Industrials"
+  Symbol	"AME"
+  41	
+  Name	"Amgen Inc"
+  Sector	"Health Care"
+  Symbol	"AMGN"
+  42	
+  Name	"Amphenol Corp"
+  Sector	"Information Technology"
+  Symbol	"APH"
+  43	
+  Name	"Anadarko Petroleum Corp"
+  Sector	"Energy"
+  Symbol	"APC"
+  44	
+  Name	"Analog Devices, Inc."
+  Sector	"Information Technology"
+  Symbol	"ADI"
+  45	
+  Name	"Andeavor"
+  Sector	"Energy"
+  Symbol	"ANDV"
+  46	
+  Name	"ANSYS"
+  Sector	"Information Technology"
+  Symbol	"ANSS"
+  47	
+  Name	"Anthem Inc."
+  Sector	"Health Care"
+  Symbol	"ANTM"
+  48	
+  Name	"Aon plc"
+  Sector	"Financials"
+  Symbol	"AON"
+  49	
+  Name	"Apache Corporation"
+  Sector	"Energy"
+  Symbol	"APA"
+  50	
+  Name	"Apartment Investment & Management"
+  Sector	"Real Estate"
+  Symbol	"AIV"
+  51	
+  Name	"Apple Inc."
+  Sector	"Information Technology"
+  Symbol	"AAPL"
+  52	
+  Name	"Applied Materials Inc"
+  Sector	"Information Technology"
+  Symbol	"AMAT"
+  53	
+  Name	"Aptiv Plc"
+  Sector	"Consumer Discretionary"
+  Symbol	"APTV"
+  54	
+  Name	"Archer-Daniels-Midland Co"
+  Sector	"Consumer Staples"
+  Symbol	"ADM"
+  55	
+  Name	"Arconic Inc"
+  Sector	"Industrials"
+  Symbol	"ARNC"
+  56	
+  Name	"Arthur J. Gallagher & Co."
+  Sector	"Financials"
+  Symbol	"AJG"
+  57	
+  Name	"Assurant Inc"
+  Sector	"Financials"
+  Symbol	"AIZ"
+  58	
+  Name	"AT&T Inc"
+  Sector	"Telecommunication Services"
+  Symbol	"T"
+  59	
+  Name	"Autodesk Inc"
+  Sector	"Information Technology"
+  Symbol	"ADSK"
+  60	
+  Name	"Automatic Data Processing"
+  Sector	"Information Technology"
+  Symbol	"ADP"
+  61	
+  Name	"AutoZone Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"AZO"
+  62	
+  Name	"AvalonBay Communities, Inc."
+  Sector	"Real Estate"
+  Symbol	"AVB"
+  63	
+  Name	"Avery Dennison Corp"
+  Sector	"Materials"
+  Symbol	"AVY"
+  64	
+  Name	"Baker Hughes, a GE Company"
+  Sector	"Energy"
+  Symbol	"BHGE"
+  65	
+  Name	"Ball Corp"
+  Sector	"Materials"
+  Symbol	"BLL"
+  66	
+  Name	"Bank of America Corp"
+  Sector	"Financials"
+  Symbol	"BAC"
+  67	
+  Name	"Baxter International Inc."
+  Sector	"Health Care"
+  Symbol	"BAX"
+  68	
+  Name	"BB&T Corporation"
+  Sector	"Financials"
+  Symbol	"BBT"
+  69	
+  Name	"Becton Dickinson"
+  Sector	"Health Care"
+  Symbol	"BDX"
+  70	
+  Name	"Berkshire Hathaway"
+  Sector	"Financials"
+  Symbol	"BRK.B"
+  71	
+  Name	"Best Buy Co. Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"BBY"
+  72	
+  Name	"Biogen Inc."
+  Sector	"Health Care"
+  Symbol	"BIIB"
+  73	
+  Name	"BlackRock"
+  Sector	"Financials"
+  Symbol	"BLK"
+  74	
+  Name	"Block H&R"
+  Sector	"Financials"
+  Symbol	"HRB"
+  75	
+  Name	"Boeing Company"
+  Sector	"Industrials"
+  Symbol	"BA"
+  76	
+  Name	"BorgWarner"
+  Sector	"Consumer Discretionary"
+  Symbol	"BWA"
+  77	
+  Name	"Boston Properties"
+  Sector	"Real Estate"
+  Symbol	"BXP"
+  78	
+  Name	"Boston Scientific"
+  Sector	"Health Care"
+  Symbol	"BSX"
+  79	
+  Name	"Brighthouse Financial Inc"
+  Sector	"Financials"
+  Symbol	"BHF"
+  80	
+  Name	"Bristol-Myers Squibb"
+  Sector	"Health Care"
+  Symbol	"BMY"
+  81	
+  Name	"Broadcom"
+  Sector	"Information Technology"
+  Symbol	"AVGO"
+  82	
+  Name	"Brown-Forman Corp."
+  Sector	"Consumer Staples"
+  Symbol	"BF.B"
+  83	
+  Name	"C. H. Robinson Worldwide"
+  Sector	"Industrials"
+  Symbol	"CHRW"
+  84	
+  Name	"CA, Inc."
+  Sector	"Information Technology"
+  Symbol	"CA"
+  85	
+  Name	"Cabot Oil & Gas"
+  Sector	"Energy"
+  Symbol	"COG"
+  86	
+  Name	"Cadence Design Systems"
+  Sector	"Information Technology"
+  Symbol	"CDNS"
+  87	
+  Name	"Campbell Soup"
+  Sector	"Consumer Staples"
+  Symbol	"CPB"
+  88	
+  Name	"Capital One Financial"
+  Sector	"Financials"
+  Symbol	"COF"
+  89	
+  Name	"Cardinal Health Inc."
+  Sector	"Health Care"
+  Symbol	"CAH"
+  90	
+  Name	"Carmax Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"KMX"
+  91	
+  Name	"Carnival Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"CCL"
+  92	
+  Name	"Caterpillar Inc."
+  Sector	"Industrials"
+  Symbol	"CAT"
+  93	
+  Name	"CBOE Holdings"
+  Sector	"Financials"
+  Symbol	"CBOE"
+  94	
+  Name	"CBRE Group"
+  Sector	"Real Estate"
+  Symbol	"CBG"
+  95	
+  Name	"CBS Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"CBS"
+  96	
+  Name	"Celgene Corp."
+  Sector	"Health Care"
+  Symbol	"CELG"
+  97	
+  Name	"Centene Corporation"
+  Sector	"Health Care"
+  Symbol	"CNC"
+  98	
+  Name	"CenterPoint Energy"
+  Sector	"Utilities"
+  Symbol	"CNP"
+  99	
+  Name	"CenturyLink Inc"
+  Sector	"Telecommunication Services"
+  Symbol	"CTL"
+  100	
+  Name	"Cerner"
+  Sector	"Health Care"
+  Symbol	"CERN"
+  101	
+  Name	"CF Industries Holdings Inc"
+  Sector	"Materials"
+  Symbol	"CF"
+  102	
+  Name	"Charles Schwab Corporation"
+  Sector	"Financials"
+  Symbol	"SCHW"
+  103	
+  Name	"Charter Communications"
+  Sector	"Consumer Discretionary"
+  Symbol	"CHTR"
+  104	
+  Name	"Chesapeake Energy"
+  Sector	"Energy"
+  Symbol	"CHK"
+  105	
+  Name	"Chevron Corp."
+  Sector	"Energy"
+  Symbol	"CVX"
+  106	
+  Name	"Chipotle Mexican Grill"
+  Sector	"Consumer Discretionary"
+  Symbol	"CMG"
+  107	
+  Name	"Chubb Limited"
+  Sector	"Financials"
+  Symbol	"CB"
+  108	
+  Name	"Church & Dwight"
+  Sector	"Consumer Staples"
+  Symbol	"CHD"
+  109	
+  Name	"CIGNA Corp."
+  Sector	"Health Care"
+  Symbol	"CI"
+  110	
+  Name	"Cimarex Energy"
+  Sector	"Energy"
+  Symbol	"XEC"
+  111	
+  Name	"Cincinnati Financial"
+  Sector	"Financials"
+  Symbol	"CINF"
+  112	
+  Name	"Cintas Corporation"
+  Sector	"Industrials"
+  Symbol	"CTAS"
+  113	
+  Name	"Cisco Systems"
+  Sector	"Information Technology"
+  Symbol	"CSCO"
+  114	
+  Name	"Citigroup Inc."
+  Sector	"Financials"
+  Symbol	"C"
+  115	
+  Name	"Citizens Financial Group"
+  Sector	"Financials"
+  Symbol	"CFG"
+  116	
+  Name	"Citrix Systems"
+  Sector	"Information Technology"
+  Symbol	"CTXS"
+  117	
+  Name	"CME Group Inc."
+  Sector	"Financials"
+  Symbol	"CME"
+  118	
+  Name	"CMS Energy"
+  Sector	"Utilities"
+  Symbol	"CMS"
+  119	
+  Name	"Coca-Cola Company (The)"
+  Sector	"Consumer Staples"
+  Symbol	"KO"
+  120	
+  Name	"Cognizant Technology Solutions"
+  Sector	"Information Technology"
+  Symbol	"CTSH"
+  121	
+  Name	"Colgate-Palmolive"
+  Sector	"Consumer Staples"
+  Symbol	"CL"
+  122	
+  Name	"Comcast Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"CMCSA"
+  123	
+  Name	"Comerica Inc."
+  Sector	"Financials"
+  Symbol	"CMA"
+  124	
+  Name	"Conagra Brands"
+  Sector	"Consumer Staples"
+  Symbol	"CAG"
+  125	
+  Name	"Concho Resources"
+  Sector	"Energy"
+  Symbol	"CXO"
+  126	
+  Name	"ConocoPhillips"
+  Sector	"Energy"
+  Symbol	"COP"
+  127	
+  Name	"Consolidated Edison"
+  Sector	"Utilities"
+  Symbol	"ED"
+  128	
+  Name	"Constellation Brands"
+  Sector	"Consumer Staples"
+  Symbol	"STZ"
+  129	
+  Name	"Corning Inc."
+  Sector	"Information Technology"
+  Symbol	"GLW"
+  130	
+  Name	"Costco Wholesale Corp."
+  Sector	"Consumer Staples"
+  Symbol	"COST"
+  131	
+  Name	"Coty, Inc"
+  Sector	"Consumer Staples"
+  Symbol	"COTY"
+  132	
+  Name	"Crown Castle International Corp."
+  Sector	"Real Estate"
+  Symbol	"CCI"
+  133	
+  Name	"CSRA Inc."
+  Sector	"Information Technology"
+  Symbol	"CSRA"
+  134	
+  Name	"CSX Corp."
+  Sector	"Industrials"
+  Symbol	"CSX"
+  135	
+  Name	"Cummins Inc."
+  Sector	"Industrials"
+  Symbol	"CMI"
+  136	
+  Name	"CVS Health"
+  Sector	"Consumer Staples"
+  Symbol	"CVS"
+  137	
+  Name	"D. R. Horton"
+  Sector	"Consumer Discretionary"
+  Symbol	"DHI"
+  138	
+  Name	"Danaher Corp."
+  Sector	"Health Care"
+  Symbol	"DHR"
+  139	
+  Name	"Darden Restaurants"
+  Sector	"Consumer Discretionary"
+  Symbol	"DRI"
+  140	
+  Name	"DaVita Inc."
+  Sector	"Health Care"
+  Symbol	"DVA"
+  141	
+  Name	"Deere & Co."
+  Sector	"Industrials"
+  Symbol	"DE"
+  142	
+  Name	"Delta Air Lines Inc."
+  Sector	"Industrials"
+  Symbol	"DAL"
+  143	
+  Name	"Dentsply Sirona"
+  Sector	"Health Care"
+  Symbol	"XRAY"
+  144	
+  Name	"Devon Energy Corp."
+  Sector	"Energy"
+  Symbol	"DVN"
+  145	
+  Name	"Digital Realty Trust Inc"
+  Sector	"Real Estate"
+  Symbol	"DLR"
+  146	
+  Name	"Discover Financial Services"
+  Sector	"Financials"
+  Symbol	"DFS"
+  147	
+  Name	"Discovery Communications-A"
+  Sector	"Consumer Discretionary"
+  Symbol	"DISCA"
+  148	
+  Name	"Discovery Communications-C"
+  Sector	"Consumer Discretionary"
+  Symbol	"DISCK"
+  149	
+  Name	"Dish Network"
+  Sector	"Consumer Discretionary"
+  Symbol	"DISH"
+  150	
+  Name	"Dollar General"
+  Sector	"Consumer Discretionary"
+  Symbol	"DG"
+  151	
+  Name	"Dollar Tree"
+  Sector	"Consumer Discretionary"
+  Symbol	"DLTR"
+  152	
+  Name	"Dominion Energy"
+  Sector	"Utilities"
+  Symbol	"D"
+  153	
+  Name	"Dover Corp."
+  Sector	"Industrials"
+  Symbol	"DOV"
+  154	
+  Name	"DowDuPont"
+  Sector	"Materials"
+  Symbol	"DWDP"
+  155	
+  Name	"Dr Pepper Snapple Group"
+  Sector	"Consumer Staples"
+  Symbol	"DPS"
+  156	
+  Name	"DTE Energy Co."
+  Sector	"Utilities"
+  Symbol	"DTE"
+  157	
+  Name	"Duke Energy"
+  Sector	"Utilities"
+  Symbol	"DUK"
+  158	
+  Name	"Duke Realty Corp"
+  Sector	"Real Estate"
+  Symbol	"DRE"
+  159	
+  Name	"DXC Technology"
+  Sector	"Information Technology"
+  Symbol	"DXC"
+  160	
+  Name	"E*Trade"
+  Sector	"Financials"
+  Symbol	"ETFC"
+  161	
+  Name	"Eastman Chemical"
+  Sector	"Materials"
+  Symbol	"EMN"
+  162	
+  Name	"Eaton Corporation"
+  Sector	"Industrials"
+  Symbol	"ETN"
+  163	
+  Name	"eBay Inc."
+  Sector	"Information Technology"
+  Symbol	"EBAY"
+  164	
+  Name	"Ecolab Inc."
+  Sector	"Materials"
+  Symbol	"ECL"
+  165	
+  Name	"Edison Int'l"
+  Sector	"Utilities"
+  Symbol	"EIX"
+  166	
+  Name	"Edwards Lifesciences"
+  Sector	"Health Care"
+  Symbol	"EW"
+  167	
+  Name	"Electronic Arts"
+  Sector	"Information Technology"
+  Symbol	"EA"
+  168	
+  Name	"Emerson Electric Company"
+  Sector	"Industrials"
+  Symbol	"EMR"
+  169	
+  Name	"Entergy Corp."
+  Sector	"Utilities"
+  Symbol	"ETR"
+  170	
+  Name	"Envision Healthcare"
+  Sector	"Health Care"
+  Symbol	"EVHC"
+  171	
+  Name	"EOG Resources"
+  Sector	"Energy"
+  Symbol	"EOG"
+  172	
+  Name	"EQT Corporation"
+  Sector	"Energy"
+  Symbol	"EQT"
+  173	
+  Name	"Equifax Inc."
+  Sector	"Industrials"
+  Symbol	"EFX"
+  174	
+  Name	"Equinix"
+  Sector	"Real Estate"
+  Symbol	"EQIX"
+  175	
+  Name	"Equity Residential"
+  Sector	"Real Estate"
+  Symbol	"EQR"
+  176	
+  Name	"Essex Property Trust, Inc."
+  Sector	"Real Estate"
+  Symbol	"ESS"
+  177	
+  Name	"Estee Lauder Cos."
+  Sector	"Consumer Staples"
+  Symbol	"EL"
+  178	
+  Name	"Everest Re Group Ltd."
+  Sector	"Financials"
+  Symbol	"RE"
+  179	
+  Name	"Eversource Energy"
+  Sector	"Utilities"
+  Symbol	"ES"
+  180	
+  Name	"Exelon Corp."
+  Sector	"Utilities"
+  Symbol	"EXC"
+  181	
+  Name	"Expedia Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"EXPE"
+  182	
+  Name	"Expeditors International"
+  Sector	"Industrials"
+  Symbol	"EXPD"
+  183	
+  Name	"Express Scripts"
+  Sector	"Health Care"
+  Symbol	"ESRX"
+  184	
+  Name	"Extra Space Storage"
+  Sector	"Real Estate"
+  Symbol	"EXR"
+  185	
+  Name	"Exxon Mobil Corp."
+  Sector	"Energy"
+  Symbol	"XOM"
+  186	
+  Name	"F5 Networks"
+  Sector	"Information Technology"
+  Symbol	"FFIV"
+  187	
+  Name	"Facebook, Inc."
+  Sector	"Information Technology"
+  Symbol	"FB"
+  188	
+  Name	"Fastenal Co"
+  Sector	"Industrials"
+  Symbol	"FAST"
+  189	
+  Name	"Federal Realty Investment Trust"
+  Sector	"Real Estate"
+  Symbol	"FRT"
+  190	
+  Name	"FedEx Corporation"
+  Sector	"Industrials"
+  Symbol	"FDX"
+  191	
+  Name	"Fidelity National Information Services"
+  Sector	"Information Technology"
+  Symbol	"FIS"
+  192	
+  Name	"Fifth Third Bancorp"
+  Sector	"Financials"
+  Symbol	"FITB"
+  193	
+  Name	"FirstEnergy Corp"
+  Sector	"Utilities"
+  Symbol	"FE"
+  194	
+  Name	"Fiserv Inc"
+  Sector	"Information Technology"
+  Symbol	"FISV"
+  195	
+  Name	"FLIR Systems"
+  Sector	"Information Technology"
+  Symbol	"FLIR"
+  196	
+  Name	"Flowserve Corporation"
+  Sector	"Industrials"
+  Symbol	"FLS"
+  197	
+  Name	"Fluor Corp."
+  Sector	"Industrials"
+  Symbol	"FLR"
+  198	
+  Name	"FMC Corporation"
+  Sector	"Materials"
+  Symbol	"FMC"
+  199	
+  Name	"Foot Locker Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"FL"
+  200	
+  Name	"Ford Motor"
+  Sector	"Consumer Discretionary"
+  Symbol	"F"
+  201	
+  Name	"Fortive Corp"
+  Sector	"Industrials"
+  Symbol	"FTV"
+  202	
+  Name	"Fortune Brands Home & Security"
+  Sector	"Industrials"
+  Symbol	"FBHS"
+  203	
+  Name	"Franklin Resources"
+  Sector	"Financials"
+  Symbol	"BEN"
+  204	
+  Name	"Freeport-McMoRan Inc."
+  Sector	"Materials"
+  Symbol	"FCX"
+  205	
+  Name	"Gap Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"GPS"
+  206	
+  Name	"Garmin Ltd."
+  Sector	"Consumer Discretionary"
+  Symbol	"GRMN"
+  207	
+  Name	"Gartner Inc"
+  Sector	"Information Technology"
+  Symbol	"IT"
+  208	
+  Name	"General Dynamics"
+  Sector	"Industrials"
+  Symbol	"GD"
+  209	
+  Name	"General Electric"
+  Sector	"Industrials"
+  Symbol	"GE"
+  210	
+  Name	"General Growth Properties Inc."
+  Sector	"Real Estate"
+  Symbol	"GGP"
+  211	
+  Name	"General Mills"
+  Sector	"Consumer Staples"
+  Symbol	"GIS"
+  212	
+  Name	"General Motors"
+  Sector	"Consumer Discretionary"
+  Symbol	"GM"
+  213	
+  Name	"Genuine Parts"
+  Sector	"Consumer Discretionary"
+  Symbol	"GPC"
+  214	
+  Name	"Gilead Sciences"
+  Sector	"Health Care"
+  Symbol	"GILD"
+  215	
+  Name	"Global Payments Inc."
+  Sector	"Information Technology"
+  Symbol	"GPN"
+  216	
+  Name	"Goldman Sachs Group"
+  Sector	"Financials"
+  Symbol	"GS"
+  217	
+  Name	"Goodyear Tire & Rubber"
+  Sector	"Consumer Discretionary"
+  Symbol	"GT"
+  218	
+  Name	"Grainger (W.W.) Inc."
+  Sector	"Industrials"
+  Symbol	"GWW"
+  219	
+  Name	"Halliburton Co."
+  Sector	"Energy"
+  Symbol	"HAL"
+  220	
+  Name	"Hanesbrands Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"HBI"
+  221	
+  Name	"Harley-Davidson"
+  Sector	"Consumer Discretionary"
+  Symbol	"HOG"
+  222	
+  Name	"Harris Corporation"
+  Sector	"Information Technology"
+  Symbol	"HRS"
+  223	
+  Name	"Hartford Financial Svc.Gp."
+  Sector	"Financials"
+  Symbol	"HIG"
+  224	
+  Name	"Hasbro Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"HAS"
+  225	
+  Name	"HCA Holdings"
+  Sector	"Health Care"
+  Symbol	"HCA"
+  226	
+  Name	"HCP Inc."
+  Sector	"Real Estate"
+  Symbol	"HCP"
+  227	
+  Name	"Helmerich & Payne"
+  Sector	"Energy"
+  Symbol	"HP"
+  228	
+  Name	"Henry Schein"
+  Sector	"Health Care"
+  Symbol	"HSIC"
+  229	
+  Name	"Hess Corporation"
+  Sector	"Energy"
+  Symbol	"HES"
+  230	
+  Name	"Hewlett Packard Enterprise"
+  Sector	"Information Technology"
+  Symbol	"HPE"
+  231	
+  Name	"Hilton Worldwide Holdings Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"HLT"
+  232	
+  Name	"Hologic"
+  Sector	"Health Care"
+  Symbol	"HOLX"
+  233	
+  Name	"Home Depot"
+  Sector	"Consumer Discretionary"
+  Symbol	"HD"
+  234	
+  Name	"Honeywell Int'l Inc."
+  Sector	"Industrials"
+  Symbol	"HON"
+  235	
+  Name	"Hormel Foods Corp."
+  Sector	"Consumer Staples"
+  Symbol	"HRL"
+  236	
+  Name	"Host Hotels & Resorts"
+  Sector	"Real Estate"
+  Symbol	"HST"
+  237	
+  Name	"HP Inc."
+  Sector	"Information Technology"
+  Symbol	"HPQ"
+  238	
+  Name	"Humana Inc."
+  Sector	"Health Care"
+  Symbol	"HUM"
+  239	
+  Name	"Huntington Bancshares"
+  Sector	"Financials"
+  Symbol	"HBAN"
+  240	
+  Name	"Huntington Ingalls Industries"
+  Sector	"Industrials"
+  Symbol	"HII"
+  241	
+  Name	"IDEXX Laboratories"
+  Sector	"Health Care"
+  Symbol	"IDXX"
+  242	
+  Name	"IHS Markit Ltd."
+  Sector	"Industrials"
+  Symbol	"INFO"
+  243	
+  Name	"Illinois Tool Works"
+  Sector	"Industrials"
+  Symbol	"ITW"
+  244	
+  Name	"Illumina Inc"
+  Sector	"Health Care"
+  Symbol	"ILMN"
+  245	
+  Name	"Incyte"
+  Sector	"Health Care"
+  Symbol	"INCY"
+  246	
+  Name	"Ingersoll-Rand PLC"
+  Sector	"Industrials"
+  Symbol	"IR"
+  247	
+  Name	"Intel Corp."
+  Sector	"Information Technology"
+  Symbol	"INTC"
+  248	
+  Name	"Intercontinental Exchange"
+  Sector	"Financials"
+  Symbol	"ICE"
+  249	
+  Name	"International Business Machines"
+  Sector	"Information Technology"
+  Symbol	"IBM"
+  250	
+  Name	"International Paper"
+  Sector	"Materials"
+  Symbol	"IP"
+  251	
+  Name	"Interpublic Group"
+  Sector	"Consumer Discretionary"
+  Symbol	"IPG"
+  252	
+  Name	"Intl Flavors & Fragrances"
+  Sector	"Materials"
+  Symbol	"IFF"
+  253	
+  Name	"Intuit Inc."
+  Sector	"Information Technology"
+  Symbol	"INTU"
+  254	
+  Name	"Intuitive Surgical Inc."
+  Sector	"Health Care"
+  Symbol	"ISRG"
+  255	
+  Name	"Invesco Ltd."
+  Sector	"Financials"
+  Symbol	"IVZ"
+  256	
+  Name	"IQVIA Holdings Inc."
+  Sector	"Health Care"
+  Symbol	"IQV"
+  257	
+  Name	"Iron Mountain Incorporated"
+  Sector	"Real Estate"
+  Symbol	"IRM"
+  258	
+  Name	"J. B. Hunt Transport Services"
+  Sector	"Industrials"
+  Symbol	"JBHT"
+  259	
+  Name	"Jacobs Engineering Group"
+  Sector	"Industrials"
+  Symbol	"JEC"
+  260	
+  Name	"JM Smucker"
+  Sector	"Consumer Staples"
+  Symbol	"SJM"
+  261	
+  Name	"Johnson & Johnson"
+  Sector	"Health Care"
+  Symbol	"JNJ"
+  262	
+  Name	"Johnson Controls International"
+  Sector	"Industrials"
+  Symbol	"JCI"
+  263	
+  Name	"JPMorgan Chase & Co."
+  Sector	"Financials"
+  Symbol	"JPM"
+  264	
+  Name	"Juniper Networks"
+  Sector	"Information Technology"
+  Symbol	"JNPR"
+  265	
+  Name	"Kansas City Southern"
+  Sector	"Industrials"
+  Symbol	"KSU"
+  266	
+  Name	"Kellogg Co."
+  Sector	"Consumer Staples"
+  Symbol	"K"
+  267	
+  Name	"KeyCorp"
+  Sector	"Financials"
+  Symbol	"KEY"
+  268	
+  Name	"Kimberly-Clark"
+  Sector	"Consumer Staples"
+  Symbol	"KMB"
+  269	
+  Name	"Kimco Realty"
+  Sector	"Real Estate"
+  Symbol	"KIM"
+  270	
+  Name	"Kinder Morgan"
+  Sector	"Energy"
+  Symbol	"KMI"
+  271	
+  Name	"KLA-Tencor Corp."
+  Sector	"Information Technology"
+  Symbol	"KLAC"
+  272	
+  Name	"Kohl's Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"KSS"
+  273	
+  Name	"Kraft Heinz Co"
+  Sector	"Consumer Staples"
+  Symbol	"KHC"
+  274	
+  Name	"Kroger Co."
+  Sector	"Consumer Staples"
+  Symbol	"KR"
+  275	
+  Name	"L Brands Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"LB"
+  276	
+  Name	"L-3 Communications Holdings"
+  Sector	"Industrials"
+  Symbol	"LLL"
+  277	
+  Name	"Laboratory Corp. of America Holding"
+  Sector	"Health Care"
+  Symbol	"LH"
+  278	
+  Name	"Lam Research"
+  Sector	"Information Technology"
+  Symbol	"LRCX"
+  279	
+  Name	"Leggett & Platt"
+  Sector	"Consumer Discretionary"
+  Symbol	"LEG"
+  280	
+  Name	"Lennar Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"LEN"
+  281	
+  Name	"Leucadia National Corp."
+  Sector	"Financials"
+  Symbol	"LUK"
+  282	
+  Name	"Lilly (Eli) & Co."
+  Sector	"Health Care"
+  Symbol	"LLY"
+  283	
+  Name	"Lincoln National"
+  Sector	"Financials"
+  Symbol	"LNC"
+  284	
+  Name	"LKQ Corporation"
+  Sector	"Consumer Discretionary"
+  Symbol	"LKQ"
+  285	
+  Name	"Lockheed Martin Corp."
+  Sector	"Industrials"
+  Symbol	"LMT"
+  286	
+  Name	"Loews Corp."
+  Sector	"Financials"
+  Symbol	"L"
+  287	
+  Name	"Lowe's Cos."
+  Sector	"Consumer Discretionary"
+  Symbol	"LOW"
+  288	
+  Name	"LyondellBasell"
+  Sector	"Materials"
+  Symbol	"LYB"
+  289	
+  Name	"M&T Bank Corp."
+  Sector	"Financials"
+  Symbol	"MTB"
+  290	
+  Name	"Macerich"
+  Sector	"Real Estate"
+  Symbol	"MAC"
+  291	
+  Name	"Macy's Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"M"
+  292	
+  Name	"Marathon Oil Corp."
+  Sector	"Energy"
+  Symbol	"MRO"
+  293	
+  Name	"Marathon Petroleum"
+  Sector	"Energy"
+  Symbol	"MPC"
+  294	
+  Name	"Marriott Int'l."
+  Sector	"Consumer Discretionary"
+  Symbol	"MAR"
+  295	
+  Name	"Marsh & McLennan"
+  Sector	"Financials"
+  Symbol	"MMC"
+  296	
+  Name	"Martin Marietta Materials"
+  Sector	"Materials"
+  Symbol	"MLM"
+  297	
+  Name	"Masco Corp."
+  Sector	"Industrials"
+  Symbol	"MAS"
+  298	
+  Name	"Mastercard Inc."
+  Sector	"Information Technology"
+  Symbol	"MA"
+  299	
+  Name	"Mattel Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"MAT"
+  300	
+  Name	"McCormick & Co."
+  Sector	"Consumer Staples"
+  Symbol	"MKC"
+  301	
+  Name	"McDonald's Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"MCD"
+  302	
+  Name	"McKesson Corp."
+  Sector	"Health Care"
+  Symbol	"MCK"
+  303	
+  Name	"Medtronic plc"
+  Sector	"Health Care"
+  Symbol	"MDT"
+  304	
+  Name	"Merck & Co."
+  Sector	"Health Care"
+  Symbol	"MRK"
+  305	
+  Name	"MetLife Inc."
+  Sector	"Financials"
+  Symbol	"MET"
+  306	
+  Name	"Mettler Toledo"
+  Sector	"Health Care"
+  Symbol	"MTD"
+  307	
+  Name	"MGM Resorts International"
+  Sector	"Consumer Discretionary"
+  Symbol	"MGM"
+  308	
+  Name	"Michael Kors Holdings"
+  Sector	"Consumer Discretionary"
+  Symbol	"KORS"
+  309	
+  Name	"Microchip Technology"
+  Sector	"Information Technology"
+  Symbol	"MCHP"
+  310	
+  Name	"Micron Technology"
+  Sector	"Information Technology"
+  Symbol	"MU"
+  311	
+  Name	"Microsoft Corp."
+  Sector	"Information Technology"
+  Symbol	"MSFT"
+  312	
+  Name	"Mid-America Apartments"
+  Sector	"Real Estate"
+  Symbol	"MAA"
+  313	
+  Name	"Mohawk Industries"
+  Sector	"Consumer Discretionary"
+  Symbol	"MHK"
+  314	
+  Name	"Molson Coors Brewing Company"
+  Sector	"Consumer Staples"
+  Symbol	"TAP"
+  315	
+  Name	"Mondelez International"
+  Sector	"Consumer Staples"
+  Symbol	"MDLZ"
+  316	
+  Name	"Monsanto Co."
+  Sector	"Materials"
+  Symbol	"MON"
+  317	
+  Name	"Monster Beverage"
+  Sector	"Consumer Staples"
+  Symbol	"MNST"
+  318	
+  Name	"Moody's Corp"
+  Sector	"Financials"
+  Symbol	"MCO"
+  319	
+  Name	"Morgan Stanley"
+  Sector	"Financials"
+  Symbol	"MS"
+  320	
+  Name	"Motorola Solutions Inc."
+  Sector	"Information Technology"
+  Symbol	"MSI"
+  321	
+  Name	"Mylan N.V."
+  Sector	"Health Care"
+  Symbol	"MYL"
+  322	
+  Name	"Nasdaq, Inc."
+  Sector	"Financials"
+  Symbol	"NDAQ"
+  323	
+  Name	"National Oilwell Varco Inc."
+  Sector	"Energy"
+  Symbol	"NOV"
+  324	
+  Name	"Navient"
+  Sector	"Financials"
+  Symbol	"NAVI"
+  325	
+  Name	"NetApp"
+  Sector	"Information Technology"
+  Symbol	"NTAP"
+  326	
+  Name	"Netflix Inc."
+  Sector	"Information Technology"
+  Symbol	"NFLX"
+  327	
+  Name	"Newell Brands"
+  Sector	"Consumer Discretionary"
+  Symbol	"NWL"
+  328	
+  Name	"Newfield Exploration Co"
+  Sector	"Energy"
+  Symbol	"NFX"
+  329	
+  Name	"Newmont Mining Corporation"
+  Sector	"Materials"
+  Symbol	"NEM"
+  330	
+  Name	"News Corp. Class A"
+  Sector	"Consumer Discretionary"
+  Symbol	"NWSA"
+  331	
+  Name	"News Corp. Class B"
+  Sector	"Consumer Discretionary"
+  Symbol	"NWS"
+  332	
+  Name	"NextEra Energy"
+  Sector	"Utilities"
+  Symbol	"NEE"
+  333	
+  Name	"Nielsen Holdings"
+  Sector	"Industrials"
+  Symbol	"NLSN"
+  334	
+  Name	"Nike"
+  Sector	"Consumer Discretionary"
+  Symbol	"NKE"
+  335	
+  Name	"NiSource Inc."
+  Sector	"Utilities"
+  Symbol	"NI"
+  336	
+  Name	"Noble Energy Inc"
+  Sector	"Energy"
+  Symbol	"NBL"
+  337	
+  Name	"Nordstrom"
+  Sector	"Consumer Discretionary"
+  Symbol	"JWN"
+  338	
+  Name	"Norfolk Southern Corp."
+  Sector	"Industrials"
+  Symbol	"NSC"
+  339	
+  Name	"Northern Trust Corp."
+  Sector	"Financials"
+  Symbol	"NTRS"
+  340	
+  Name	"Northrop Grumman Corp."
+  Sector	"Industrials"
+  Symbol	"NOC"
+  341	
+  Name	"Norwegian Cruise Line"
+  Sector	"Consumer Discretionary"
+  Symbol	"NCLH"
+  342	
+  Name	"NRG Energy"
+  Sector	"Utilities"
+  Symbol	"NRG"
+  343	
+  Name	"Nucor Corp."
+  Sector	"Materials"
+  Symbol	"NUE"
+  344	
+  Name	"Nvidia Corporation"
+  Sector	"Information Technology"
+  Symbol	"NVDA"
+  345	
+  Name	"O'Reilly Automotive"
+  Sector	"Consumer Discretionary"
+  Symbol	"ORLY"
+  346	
+  Name	"Occidental Petroleum"
+  Sector	"Energy"
+  Symbol	"OXY"
+  347	
+  Name	"Omnicom Group"
+  Sector	"Consumer Discretionary"
+  Symbol	"OMC"
+  348	
+  Name	"ONEOK"
+  Sector	"Energy"
+  Symbol	"OKE"
+  349	
+  Name	"Oracle Corp."
+  Sector	"Information Technology"
+  Symbol	"ORCL"
+  350	
+  Name	"PACCAR Inc."
+  Sector	"Industrials"
+  Symbol	"PCAR"
+  351	
+  Name	"Packaging Corporation of America"
+  Sector	"Materials"
+  Symbol	"PKG"
+  352	
+  Name	"Parker-Hannifin"
+  Sector	"Industrials"
+  Symbol	"PH"
+  353	
+  Name	"Patterson Companies"
+  Sector	"Health Care"
+  Symbol	"PDCO"
+  354	
+  Name	"Paychex Inc."
+  Sector	"Information Technology"
+  Symbol	"PAYX"
+  355	
+  Name	"PayPal"
+  Sector	"Information Technology"
+  Symbol	"PYPL"
+  356	
+  Name	"Pentair Ltd."
+  Sector	"Industrials"
+  Symbol	"PNR"
+  357	
+  Name	"People's United Financial"
+  Sector	"Financials"
+  Symbol	"PBCT"
+  358	
+  Name	"PepsiCo Inc."
+  Sector	"Consumer Staples"
+  Symbol	"PEP"
+  359	
+  Name	"PerkinElmer"
+  Sector	"Health Care"
+  Symbol	"PKI"
+  360	
+  Name	"Perrigo"
+  Sector	"Health Care"
+  Symbol	"PRGO"
+  361	
+  Name	"Pfizer Inc."
+  Sector	"Health Care"
+  Symbol	"PFE"
+  362	
+  Name	"PG&E Corp."
+  Sector	"Utilities"
+  Symbol	"PCG"
+  363	
+  Name	"Philip Morris International"
+  Sector	"Consumer Staples"
+  Symbol	"PM"
+  364	
+  Name	"Phillips 66"
+  Sector	"Energy"
+  Symbol	"PSX"
+  365	
+  Name	"Pinnacle West Capital"
+  Sector	"Utilities"
+  Symbol	"PNW"
+  366	
+  Name	"Pioneer Natural Resources"
+  Sector	"Energy"
+  Symbol	"PXD"
+  367	
+  Name	"PNC Financial Services"
+  Sector	"Financials"
+  Symbol	"PNC"
+  368	
+  Name	"Polo Ralph Lauren Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"RL"
+  369	
+  Name	"PPG Industries"
+  Sector	"Materials"
+  Symbol	"PPG"
+  370	
+  Name	"PPL Corp."
+  Sector	"Utilities"
+  Symbol	"PPL"
+  371	
+  Name	"Praxair Inc."
+  Sector	"Materials"
+  Symbol	"PX"
+  372	
+  Name	"Priceline.com Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"PCLN"
+  373	
+  Name	"Principal Financial Group"
+  Sector	"Financials"
+  Symbol	"PFG"
+  374	
+  Name	"Procter & Gamble"
+  Sector	"Consumer Staples"
+  Symbol	"PG"
+  375	
+  Name	"Progressive Corp."
+  Sector	"Financials"
+  Symbol	"PGR"
+  376	
+  Name	"Prologis"
+  Sector	"Real Estate"
+  Symbol	"PLD"
+  377	
+  Name	"Prudential Financial"
+  Sector	"Financials"
+  Symbol	"PRU"
+  378	
+  Name	"Public Serv. Enterprise Inc."
+  Sector	"Utilities"
+  Symbol	"PEG"
+  379	
+  Name	"Public Storage"
+  Sector	"Real Estate"
+  Symbol	"PSA"
+  380	
+  Name	"Pulte Homes Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"PHM"
+  381	
+  Name	"PVH Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"PVH"
+  382	
+  Name	"Qorvo"
+  Sector	"Information Technology"
+  Symbol	"QRVO"
+  383	
+  Name	"QUALCOMM Inc."
+  Sector	"Information Technology"
+  Symbol	"QCOM"
+  384	
+  Name	"Quanta Services Inc."
+  Sector	"Industrials"
+  Symbol	"PWR"
+  385	
+  Name	"Quest Diagnostics"
+  Sector	"Health Care"
+  Symbol	"DGX"
+  386	
+  Name	"Range Resources Corp."
+  Sector	"Energy"
+  Symbol	"RRC"
+  387	
+  Name	"Raymond James Financial Inc."
+  Sector	"Financials"
+  Symbol	"RJF"
+  388	
+  Name	"Raytheon Co."
+  Sector	"Industrials"
+  Symbol	"RTN"
+  389	
+  Name	"Realty Income Corporation"
+  Sector	"Real Estate"
+  Symbol	"O"
+  390	
+  Name	"Red Hat Inc."
+  Sector	"Information Technology"
+  Symbol	"RHT"
+  391	
+  Name	"Regency Centers Corporation"
+  Sector	"Real Estate"
+  Symbol	"REG"
+  392	
+  Name	"Regeneron"
+  Sector	"Health Care"
+  Symbol	"REGN"
+  393	
+  Name	"Regions Financial Corp."
+  Sector	"Financials"
+  Symbol	"RF"
+  394	
+  Name	"Republic Services Inc"
+  Sector	"Industrials"
+  Symbol	"RSG"
+  395	
+  Name	"ResMed"
+  Sector	"Health Care"
+  Symbol	"RMD"
+  396	
+  Name	"Robert Half International"
+  Sector	"Industrials"
+  Symbol	"RHI"
+  397	
+  Name	"Rockwell Automation Inc."
+  Sector	"Industrials"
+  Symbol	"ROK"
+  398	
+  Name	"Rockwell Collins"
+  Sector	"Industrials"
+  Symbol	"COL"
+  399	
+  Name	"Roper Technologies"
+  Sector	"Industrials"
+  Symbol	"ROP"
+  400	
+  Name	"Ross Stores"
+  Sector	"Consumer Discretionary"
+  Symbol	"ROST"
+  401	
+  Name	"Royal Caribbean Cruises Ltd"
+  Sector	"Consumer Discretionary"
+  Symbol	"RCL"
+  402	
+  Name	"S&P Global, Inc."
+  Sector	"Financials"
+  Symbol	"SPGI"
+  403	
+  Name	"Salesforce.com"
+  Sector	"Information Technology"
+  Symbol	"CRM"
+  404	
+  Name	"SBA Communications"
+  Sector	"Real Estate"
+  Symbol	"SBAC"
+  405	
+  Name	"SCANA Corp"
+  Sector	"Utilities"
+  Symbol	"SCG"
+  406	
+  Name	"Schlumberger Ltd."
+  Sector	"Energy"
+  Symbol	"SLB"
+  407	
+  Name	"Scripps Networks Interactive Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"SNI"
+  408	
+  Name	"Seagate Technology"
+  Sector	"Information Technology"
+  Symbol	"STX"
+  409	
+  Name	"Sealed Air"
+  Sector	"Materials"
+  Symbol	"SEE"
+  410	
+  Name	"Sempra Energy"
+  Sector	"Utilities"
+  Symbol	"SRE"
+  411	
+  Name	"Sherwin-Williams"
+  Sector	"Materials"
+  Symbol	"SHW"
+  412	
+  Name	"Signet Jewelers"
+  Sector	"Consumer Discretionary"
+  Symbol	"SIG"
+  413	
+  Name	"Simon Property Group Inc"
+  Sector	"Real Estate"
+  Symbol	"SPG"
+  414	
+  Name	"Skyworks Solutions"
+  Sector	"Information Technology"
+  Symbol	"SWKS"
+  415	
+  Name	"SL Green Realty"
+  Sector	"Real Estate"
+  Symbol	"SLG"
+  416	
+  Name	"Snap-On Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"SNA"
+  417	
+  Name	"Southern Co."
+  Sector	"Utilities"
+  Symbol	"SO"
+  418	
+  Name	"Southwest Airlines"
+  Sector	"Industrials"
+  Symbol	"LUV"
+  419	
+  Name	"Stanley Black & Decker"
+  Sector	"Consumer Discretionary"
+  Symbol	"SWK"
+  420	
+  Name	"Starbucks Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"SBUX"
+  421	
+  Name	"State Street Corp."
+  Sector	"Financials"
+  Symbol	"STT"
+  422	
+  Name	"Stericycle Inc"
+  Sector	"Industrials"
+  Symbol	"SRCL"
+  423	
+  Name	"Stryker Corp."
+  Sector	"Health Care"
+  Symbol	"SYK"
+  424	
+  Name	"SunTrust Banks"
+  Sector	"Financials"
+  Symbol	"STI"
+  425	
+  Name	"Symantec Corp."
+  Sector	"Information Technology"
+  Symbol	"SYMC"
+  426	
+  Name	"Synchrony Financial"
+  Sector	"Financials"
+  Symbol	"SYF"
+  427	
+  Name	"Synopsys Inc."
+  Sector	"Information Technology"
+  Symbol	"SNPS"
+  428	
+  Name	"Sysco Corp."
+  Sector	"Consumer Staples"
+  Symbol	"SYY"
+  429	
+  Name	"T. Rowe Price Group"
+  Sector	"Financials"
+  Symbol	"TROW"
+  430	
+  Name	"Tapestry, Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"TPR"
+  431	
+  Name	"Target Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"TGT"
+  432	
+  Name	"TE Connectivity Ltd."
+  Sector	"Information Technology"
+  Symbol	"TEL"
+  433	
+  Name	"TechnipFMC"
+  Sector	"Energy"
+  Symbol	"FTI"
+  434	
+  Name	"Texas Instruments"
+  Sector	"Information Technology"
+  Symbol	"TXN"
+  435	
+  Name	"Textron Inc."
+  Sector	"Industrials"
+  Symbol	"TXT"
+  436	
+  Name	"The Bank of New York Mellon Corp."
+  Sector	"Financials"
+  Symbol	"BK"
+  437	
+  Name	"The Clorox Company"
+  Sector	"Consumer Staples"
+  Symbol	"CLX"
+  438	
+  Name	"The Cooper Companies"
+  Sector	"Health Care"
+  Symbol	"COO"
+  439	
+  Name	"The Hershey Company"
+  Sector	"Consumer Staples"
+  Symbol	"HSY"
+  440	
+  Name	"The Mosaic Company"
+  Sector	"Materials"
+  Symbol	"MOS"
+  441	
+  Name	"The Travelers Companies Inc."
+  Sector	"Financials"
+  Symbol	"TRV"
+  442	
+  Name	"The Walt Disney Company"
+  Sector	"Consumer Discretionary"
+  Symbol	"DIS"
+  443	
+  Name	"Thermo Fisher Scientific"
+  Sector	"Health Care"
+  Symbol	"TMO"
+  444	
+  Name	"Tiffany & Co."
+  Sector	"Consumer Discretionary"
+  Symbol	"TIF"
+  445	
+  Name	"Time Warner Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"TWX"
+  446	
+  Name	"TJX Companies Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"TJX"
+  447	
+  Name	"Torchmark Corp."
+  Sector	"Financials"
+  Symbol	"TMK"
+  448	
+  Name	"Total System Services"
+  Sector	"Information Technology"
+  Symbol	"TSS"
+  449	
+  Name	"Tractor Supply Company"
+  Sector	"Consumer Discretionary"
+  Symbol	"TSCO"
+  450	
+  Name	"TransDigm Group"
+  Sector	"Industrials"
+  Symbol	"TDG"
+  451	
+  Name	"TripAdvisor"
+  Sector	"Consumer Discretionary"
+  Symbol	"TRIP"
+  452	
+  Name	"Twenty-First Century Fox Class A"
+  Sector	"Consumer Discretionary"
+  Symbol	"FOXA"
+  453	
+  Name	"Twenty-First Century Fox Class B"
+  Sector	"Consumer Discretionary"
+  Symbol	"FOX"
+  454	
+  Name	"Tyson Foods"
+  Sector	"Consumer Staples"
+  Symbol	"TSN"
+  455	
+  Name	"U.S. Bancorp"
+  Sector	"Financials"
+  Symbol	"USB"
+  456	
+  Name	"UDR Inc"
+  Sector	"Real Estate"
+  Symbol	"UDR"
+  457	
+  Name	"Ulta Salon Cosmetics & Fragrance Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"ULTA"
+  458	
+  Name	"Under Armour Class A"
+  Sector	"Consumer Discretionary"
+  Symbol	"UAA"
+  459	
+  Name	"Under Armour Class C"
+  Sector	"Consumer Discretionary"
+  Symbol	"UA"
+  460	
+  Name	"Union Pacific"
+  Sector	"Industrials"
+  Symbol	"UNP"
+  461	
+  Name	"United Continental Holdings"
+  Sector	"Industrials"
+  Symbol	"UAL"
+  462	
+  Name	"United Health Group Inc."
+  Sector	"Health Care"
+  Symbol	"UNH"
+  463	
+  Name	"United Parcel Service"
+  Sector	"Industrials"
+  Symbol	"UPS"
+  464	
+  Name	"United Rentals, Inc."
+  Sector	"Industrials"
+  Symbol	"URI"
+  465	
+  Name	"United Technologies"
+  Sector	"Industrials"
+  Symbol	"UTX"
+  466	
+  Name	"Universal Health Services, Inc."
+  Sector	"Health Care"
+  Symbol	"UHS"
+  467	
+  Name	"Unum Group"
+  Sector	"Financials"
+  Symbol	"UNM"
+  468	
+  Name	"V.F. Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"VFC"
+  469	
+  Name	"Valero Energy"
+  Sector	"Energy"
+  Symbol	"VLO"
+  470	
+  Name	"Varian Medical Systems"
+  Sector	"Health Care"
+  Symbol	"VAR"
+  471	
+  Name	"Ventas Inc"
+  Sector	"Real Estate"
+  Symbol	"VTR"
+  472	
+  Name	"Verisign Inc."
+  Sector	"Information Technology"
+  Symbol	"VRSN"
+  473	
+  Name	"Verisk Analytics"
+  Sector	"Industrials"
+  Symbol	"VRSK"
+  474	
+  Name	"Verizon Communications"
+  Sector	"Telecommunication Services"
+  Symbol	"VZ"
+  475	
+  Name	"Vertex Pharmaceuticals Inc"
+  Sector	"Health Care"
+  Symbol	"VRTX"
+  476	
+  Name	"Viacom Inc."
+  Sector	"Consumer Discretionary"
+  Symbol	"VIAB"
+  477	
+  Name	"Visa Inc."
+  Sector	"Information Technology"
+  Symbol	"V"
+  478	
+  Name	"Vornado Realty Trust"
+  Sector	"Real Estate"
+  Symbol	"VNO"
+  479	
+  Name	"Vulcan Materials"
+  Sector	"Materials"
+  Symbol	"VMC"
+  480	
+  Name	"Wal-Mart Stores"
+  Sector	"Consumer Staples"
+  Symbol	"WMT"
+  481	
+  Name	"Walgreens Boots Alliance"
+  Sector	"Consumer Staples"
+  Symbol	"WBA"
+  482	
+  Name	"Waste Management Inc."
+  Sector	"Industrials"
+  Symbol	"WM"
+  483	
+  Name	"Waters Corporation"
+  Sector	"Health Care"
+  Symbol	"WAT"
+  484	
+  Name	"Wec Energy Group Inc"
+  Sector	"Utilities"
+  Symbol	"WEC"
+  485	
+  Name	"Wells Fargo"
+  Sector	"Financials"
+  Symbol	"WFC"
+  486	
+  Name	"Welltower Inc."
+  Sector	"Real Estate"
+  Symbol	"HCN"
+  487	
+  Name	"Western Digital"
+  Sector	"Information Technology"
+  Symbol	"WDC"
+  488	
+  Name	"Western Union Co"
+  Sector	"Information Technology"
+  Symbol	"WU"
+  489	
+  Name	"WestRock Company"
+  Sector	"Materials"
+  Symbol	"WRK"
+  490	
+  Name	"Weyerhaeuser Corp."
+  Sector	"Real Estate"
+  Symbol	"WY"
+  491	
+  Name	"Whirlpool Corp."
+  Sector	"Consumer Discretionary"
+  Symbol	"WHR"
+  492	
+  Name	"Williams Cos."
+  Sector	"Energy"
+  Symbol	"WMB"
+  493	
+  Name	"Willis Towers Watson"
+  Sector	"Financials"
+  Symbol	"WLTW"
+  494	
+  Name	"Wyndham Worldwide"
+  Sector	"Consumer Discretionary"
+  Symbol	"WYN"
+  495	
+  Name	"Wynn Resorts Ltd"
+  Sector	"Consumer Discretionary"
+  Symbol	"WYNN"
+  496	
+  Name	"Xcel Energy Inc"
+  Sector	"Utilities"
+  Symbol	"XEL"
+  497	
+  Name	"Xerox Corp."
+  Sector	"Information Technology"
+  Symbol	"XRX"
+  498	
+  Name	"Xilinx Inc"
+  Sector	"Information Technology"
+  Symbol	"XLNX"
+  499	
+  Name	"XL Capital"
+  Sector	"Financials"
+  Symbol	"XL"
+  500	
+  Name	"Xylem Inc."
+  Sector	"Industrials"
+  Symbol	"XYL"
+  501	
+  Name	"Yum! Brands Inc"
+  Sector	"Consumer Discretionary"
+  Symbol	"YUM"
+  502	
+  Name	"Zimmer Biomet Holdings"
+  Sector	"Health Care"
+  Symbol	"ZBH"
+  503	
+  Name	"Zions Bancorp"
+  Sector	"Financials"
+  Symbol	"ZION"
+  504	
+  Name	"Zoetis"
+  Sector	"Health Care"
+  Symbol	"ZTS"

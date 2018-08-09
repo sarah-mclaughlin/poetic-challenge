@@ -1,0 +1,502 @@
+// Data sourced from: https://www.geolounge.com/fortune-500-list-by-state-for-2015/ 
+
+Walmart	72716
+Exxon Mobil	75039
+Chevron	94583
+Berkshire Hathaway	68131
+Apple	95014
+General Motors	48265
+Phillips 66	77042
+General Electric	6828
+Ford Motor	48126
+CVS Health	2895
+McKesson	94104
+AT&T	75202
+Valero Energy	78249
+UnitedHealth Group	55343
+Verizon	10007
+AmerisourceBergen	19087
+Fannie Mae	20016
+Costco	98027
+HP	94304
+Kroger	45202
+JP Morgan Chase	10017
+Express Scripts Holding	63121
+Bank of America Corp.	28255
+IBM	10504
+Marathon Petroleum	45840
+Cardinal Health	43017
+Boeing	60606
+Citigroup	10022
+Amazon.com	98109
+Wells Fargo	94163
+Microsoft	98052
+Procter & Gamble	45202
+Home Depot	30339
+Archer Daniels Midland	62526
+Walgreens	60015
+Target	55403
+Johnson & Johnson	8933
+Anthem	46204
+MetLife	10166
+Google	94043
+State Farm Insurance Cos.	61710
+Freddie Mac	22102
+Comcast	19103
+PepsiCo	10577
+United Technologies	6101
+AIG	10038
+UPS	30328
+Dow Chemical	48674
+Aetna	6156
+Lowe's	28117
+ConocoPhillips	77079
+Intel	95054
+Energy Transfer Equity	75219
+Caterpillar	61629
+Prudential Financial	7102
+Pfizer	10017
+Disney	91521
+Humana	40202
+Enterprise Products Partners	77002
+Cisco Systems	95134
+Sysco	77077
+Ingram Micro	92705
+Coca-Cola	30313
+Lockheed Martin	20817
+FedEx	38120
+Johnson Controls	53209
+Plains GP Holdings	77002
+World Fuel Services	33178
+CHS	55077
+American Airlines Group	76155
+Merck	8889
+Best Buy	55423
+Delta Air Lines	30354
+Honeywell International	7962
+HCA Holdings	37203
+Goldman Sachs Group	10282
+Tesoro	78259
+Liberty Mutual Insurance Group	2116
+United Continental Holdings	60606
+New York Life Insurance	10010
+Oracle	94065
+Morgan Stanley	10036
+Tyson Foods	72762
+Safeway	94588
+Nationwide	43215
+Deere	61265
+DuPont	19898
+American Express	10285
+Allstate	60062
+Cigna	6002
+Mondelez International	60015
+TIAA-CREF	10017
+INTL FCStone	10017
+Massachusetts Mutual Life Insur	1111
+DirecTV	90245
+Halliburton	77032
+Twenty-First Century Fox	10036
+3M	55144
+Sears Holdings	60179
+General Dynamics	22042
+Publix Super Markets	33811
+Philip Morris International	10017
+TJX	1701
+Time Warner	10019
+Macy's	45202
+Nike	97005
+Tech Data	33760
+Avnet	85034
+Northwestern Mutual	53202
+McDonald's	60523
+Exelon	60603
+Travelers Cos.	10017
+Qualcomm	92121
+International Paper	38197
+Occidental Petroleum	90024
+Duke Energy	28202
+Rite Aid	17011
+Gilead Sciences	94404
+Baker Hughes	77019
+Emerson Electric	63136
+EMC	1748
+USAA	78288
+Union Pacific	68179
+Northrop Grumman	22042
+Alcoa	10022
+Capital One Financial	22102
+National Oilwell Varco	77036
+US Foods	60018
+Raytheon	2451
+Time Warner Cable	10023
+Arrow Electronics	80112
+Aflac	31999
+Staples	1702
+Abbott Laboratories	60064
+Community Health Systems	37067
+Fluor	75039
+Freeport-McMoRan	85004
+U.S. Bancorp	55402
+Nucor	28211
+Kimberly-Clark	75038
+Hess	10036
+Chesapeake Energy	73118
+Xerox	6850
+ManpowerGroup	53212
+Amgen	91320
+AbbVie	60064
+Danaher	20037
+Whirlpool	49022
+PBF Energy	7054
+HollyFrontier	75201
+Eli Lilly	46285
+Devon Energy	73102
+Progressive	44143
+Cummins	47201
+Icahn Enterprises	10153
+AutoNation	33301
+Kohl's	53051
+Paccar	98004
+Dollar General	37072
+Hartford Financial Services Gro	6155
+Southwest Airlines	75235
+Anadarko Petroleum	77380
+Southern	30308
+Supervalu	55344
+Kraft Foods Group	60093
+Goodyear Tire & Rubber	44316
+EOG Resources	77002
+CenturyLink	71203
+Altria Group	23230
+Tenet Healthcare	75202
+General Mills	55426
+eBay	95125
+ConAgra Foods	68102
+Lear	48033
+TRW Automotive Holdings	48150
+United States Steel	15219
+Penske Automotive Group	48302
+AES	22203
+Colgate-Palmolive	10022
+Global Partners	2453
+Thermo Fisher Scientific	2451
+PG&E Corp.	94105
+NextEra Energy	33408
+American Electric Power	43215
+Baxter International	60015
+Centene	63105
+Starbucks	98134
+Gap	94105
+Bank of New York Mellon Corp.	10286
+Micron Technology	83716
+Jabil Circuit	33716
+PNC Financial Services Group	15222
+Kinder Morgan	77002
+Office Depot	33496
+Bristol-Myers Squibb	10154
+NRG Energy	8540
+Monsanto	63167
+PPG Industries	15272
+Genuine Parts	30339
+Omnicom Group	10022
+Illinois Tool Works	60026
+Murphy USA	71730
+Land O'Lakes	55126
+Western Refining	79901
+Western Digital	92612
+FirstEnergy	44308
+Aramark	19107
+DISH Network	80112
+Las Vegas Sands	89109
+Kellogg	49017
+Loews	10065
+CBS	10019
+Ecolab	55102
+Whole Foods Market	78703
+Chubb	7059
+Health Net	91367
+Waste Management	77002
+Apache	77056
+Textron	2903
+Synnex	94538
+Marriott International	20817
+Viacom	10036
+Lincoln National	19087
+Nordstrom	98101
+C.H. Robinson Worldwide	55347
+Edison International	91770
+Marathon Oil	77056
+Yum Brands	40213
+Computer Sciences	22042
+Parker-Hannifin	44124
+DaVita HealthCare Partners	80202
+CarMax	23238
+Texas Instruments	75243
+WellCare Health Plans	33634
+Marsh & McLennan	10036
+Consolidated Edison	10003
+Oneok	74103
+Visa	94404
+Jacobs Engineering Group	91101
+CSX	32202
+Entergy	70113
+Facebook	94025
+Dominion Resources	23219
+Leucadia National	10022
+Toys R" Us"""	7470
+DTE Energy	48226
+Ameriprise Financial	55474
+VF	27408
+Praxair	6810
+J.C. Penney	75024
+Automatic Data Processing	7068
+L-3 Communications	10016
+CDW	60061
+Guardian Life Ins. Co. of Ameri	10004
+Xcel Energy	55401
+Norfolk Southern	23510
+PPL	18101
+R.R. Donnelley & Sons	60606
+Huntsman	84108
+Bed Bath & Beyond	7083
+Stanley Black & Decker	6053
+L Brands	43230
+Liberty Interactive	80112
+Farmers Insurance Exchange	90010
+First Data	30342
+Sherwin-Williams	44115
+BlackRock	10055
+Voya Financial	10169
+Ross Stores	94568
+Sempra Energy	92101
+Estee Lauder	10153
+H.J. Heinz	15222
+Reinsurance Group of America	63017
+Public Service Enterprise Group	7102
+Cameron International	77027
+Navistar International	60532
+CST Brands	78249
+State Street Corp.	2111
+Unum Group	37402
+Hilton Worldwide Holdings	22102
+Family Dollar Stores	28105
+Principal Financial	50392
+Reliance Steel & Aluminum	90071
+Air Products & Chemicals	18195
+Assurant	10005
+Peter Kiewit Sons'	68131
+Henry Schein	11747
+Cognizant Technology Solutions	7666
+MGM Resorts International	89109
+W.W. Grainger	60045
+Group 1 Automotive	77024
+BB&T Corp.	27101
+Rock-Tenn	30071
+Advance Auto Parts	24012
+Ally Financial	48243
+AGCO	30096
+Corning	14831
+Biogen	2142
+NGL Energy Partners	74136
+Stryker	49002
+Molina Healthcare	90802
+Precision Castparts	97239
+Discover Financial Services	60015
+Genworth Financial	23230
+Eastman Chemical	37660
+Dean Foods	75204
+AutoZone	38103
+MasterCard	10577
+Owens & Minor	23116
+Hormel Foods	55912
+GameStop	76051
+Autoliv	48326
+CenterPoint Energy	77002
+Fidelity National Financial	32204
+Sonic Automotive	28211
+HD Supply Holdings	30339
+Charter Communications	6901
+Crown Holdings	19154
+Applied Materials	95054
+Mosaic	55441
+CBRE Group	90071
+Avon Products	10017
+Republic Services	85054
+Universal Health Services	19406
+Darden Restaurants	32837
+Steel Dynamics	46804
+SunTrust Banks	30308
+Caesars Entertainment	89109
+Targa Resources	77002
+Dollar Tree	23320
+News Corp.	10036
+Ball	80021
+Thrivent Financial for Lutheran	55415
+Masco	48180
+Franklin Resources	94403
+Avis Budget Group	7054
+Reynolds American	27101
+Becton Dickinson	7417
+Priceline Group	6854
+Broadcom	92617
+Tenneco	60045
+Campbell Soup	8103
+AECOM	90071
+Visteon	48111
+Delek US Holdings	37027
+Dover	60515
+BorgWarner	48326
+Jarden	33431
+UGI	19406
+Murphy Oil	71730
+PVH	10016
+Core-Mark Holding	94080
+Calpine	77002
+D.R. Horton	76102
+Weyerhaeuser	98003
+KKR	10019
+FMC Technologies	77086
+American Family Insurance Group	53783
+SpartanNash	49518
+WESCO International	15219
+Quanta Services	77056
+Mohawk Industries	30701
+Motorola Solutions	60196
+Lennar	33172
+TravelCenters of America	44145
+Sealed Air	7407
+Eversource Energy	1105
+Coca-Cola Enterprises	30339
+Celgene	7901
+Williams	74172
+Ashland	41011
+Interpublic Group	10036
+Blackstone Group	10154
+Ralph Lauren	10022
+Quest Diagnostics	7940
+Hershey	17033
+Terex	6880
+Boston Scientific	1760
+Newmont Mining	80111
+Allergan	92612
+O'Reilly Automotive	65802
+Casey's General Stores	50021
+CMS Energy	49201
+Foot Locker	10120
+W.R. Berkley	6830
+PetSmart	85027
+Pacific Life	77002
+Commercial Metals	75039
+Agilent Technologies	95051
+Huntington Ingalls Industries	23607
+Mutual of Omaha Insurance	68175
+Live Nation Entertainment	90210
+Dick's Sporting Goods	15108
+Oshkosh	54902
+Celanese	75039
+Spirit AeroSystems Holdings	67210
+United Natural Foods	2908
+Peabody Energy	63101
+Owens-Illinois	43551
+Dillard's	72201
+Level 3 Communications	80021
+Pantry	27511
+LKQ	60661
+Integrys Energy Group	60601
+Symantec	94043
+Buckeye Partners	77046
+Ryder System	33178
+SanDisk	95035
+Rockwell Automation	53204
+Dana Holding	43537
+Lansing Trade Group	66210
+NCR	30096
+Expeditors International of Was	98104
+Omnicare	45202
+AK Steel Holding	45069
+Fifth Third Bancorp	45263
+Seaboard	66202
+NiSource	46410
+Cablevision Systems	11714
+Anixter International	60026
+EMCOR Group	6851
+Fidelity National Information S	32204
+Barnes & Noble	10011
+KBR	77002
+Auto-Owners Insurance	48917
+Jones Financial	63131
+Avery Dennison	91203
+NetApp	94089
+iHeartMedia	78209
+Discovery Communications	20910
+Harley-Davidson	53208
+Sanmina	95134
+Trinity Industries	75207
+J.B. Hunt Transport Services	72745
+Charles Schwab	94105
+Erie Insurance Group	16530
+Dr Pepper Snapple Group	75024
+Ameren	63103
+Mattel	90245
+Laboratory Corp. of America	27215
+TEGNA	22107
+Starwood Hotels & Resorts	6902
+General Cable	41076
+A-Mark Precious Metals	90401
+Graybar Electric	63105
+Energy Future Holdings	75201
+HRG Group	10022
+MRC Global	77010
+Spectra Energy	77056
+Asbury Automotive Group	30097
+Packaging Corp. of America	60045
+Windstream Holdings	72212
+PulteGroup	48304
+JetBlue Airways	11101
+Newell Rubbermaid	30328
+Con-way	48105
+Calumet Specialty Products Part	46214
+Expedia	98004
+American Financial Group	45202
+Tractor Supply	37027
+United Rentals	6902
+Ingredion	60154
+Navient	19801
+MeadWestvaco	23219
+AGL Resources	30309
+St. Jude Medical	55117
+J.M. Smucker	44667
+Western Union	80112
+Clorox	94612
+Domtar	29715
+Kelly Services	48084
+Old Republic International	60601
+Advanced Micro Devices	94085
+Netflix	95032
+Booz Allen Hamilton Holding	22102
+Quintiles Transnational Holding	27703
+Wynn Resorts	89109
+Jones Lang LaSalle	60601
+Regions Financial	35203
+CH2M Hill	80112
+Western & Southern Financial Gr	45202
+Lithia Motors	97501
+salesforce.com	94105
+Alaska Air Group	98188
+Host Hotels & Resorts	20817
+Harman International Industries	6901
+Amphenol	6492
+Realogy Holdings	7940
+Essendant	60015
+Hanesbrands	27105
+Kindred Healthcare	40202
+ARRIS Group	30024
+Insight Enterprises	85283
+Alliance Data Systems	75024
+LifePoint Health	37027
+Pioneer Natural Resources	75039
+Wyndham Worldwide	7054
+Owens Corning	43659
+Alleghany	10036
+McGraw Hill Financial	10020

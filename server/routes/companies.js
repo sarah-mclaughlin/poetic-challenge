@@ -19,4 +19,15 @@ router.get('/', (req, res) => {
     })
 })
 
+router.get('/company/:id', (req, res) => {
+  const id = Number(req.params.id)
+  db.getCompanyById(id)
+    .then(company => {
+      res.json({company})
+    })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
+})
+
 module.exports = router

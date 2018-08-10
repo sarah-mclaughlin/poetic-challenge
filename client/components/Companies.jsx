@@ -1,22 +1,18 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import {getSentiment, getCompanies} from '../apiClient'
+import {getCompanies} from '../apiClient'
 
-class Sentiment extends React.Component {
+class Companies extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      confidence: 0,
-      sentiment: '',
-      phrase: '',
       zipCode: 0,
       distance: 0,
       units: '',
       companies: []
     }
     this.handleChange = this.handleChange.bind(this)
-    this.handleClick2 = this.handleClick2.bind(this)
     this.handleClick = this.handleClick.bind(this)
   }
 
@@ -24,16 +20,6 @@ class Sentiment extends React.Component {
     this.setState({
       [e.target.name]: e.target.value
     })
-  }
-
-  handleClick2 () {
-    getSentiment(this.state.phrase)
-      .then(res => {
-        this.setState({
-          confidence: res.body.confidence,
-          sentiment: res.body.sentiment
-        })
-      })
   }
 
   handleClick () {
@@ -48,28 +34,20 @@ class Sentiment extends React.Component {
   render () {
     return (
       <div className='app'>
-        <h1>Sentiment analysis</h1>
-        <p>
-          <input name='phrase' onChange={this.handleChange} />
-          <button onClick={this.handleClick2}>Get Sentiment</button>
-        </p>
-        {this.state.sentiment && <div>
-          <p>Sentiment: {this.state.sentiment}</p>
-          <p>Confidence: {this.state.confidence}</p>
-        </div>}
-
         <h1>Choose my distance</h1>
         <p>
-          Zip code: <input name='zipCode' onChange={this.handleChange} />
-          Distance: <input name='distance' onChange={this.handleChange} />
+          Zip code: <input name='zipCode' onChange={this.handleChange} /><br />
+          Distance: <input name='distance' onChange={this.handleChange} /><br />
           Units:
           <select name="units" onChange={this.handleChange}>
             <option disabled selected value> -- select an option -- </option>
             <option value="kilometres">Kilometres</option>
             <option value="miles">Miles</option>
           </select>
-          <button onClick={this.handleClick}>Get Companies</button>
+          <br />
+          <button onClick={this.handleClick}>Find companies</button>
         </p>
+        {/* this.state.companies.length ? do below : 'there are no companies within that distance'  */}
         <div>
           <ul>
             {this.state.companies.map(company => {
@@ -86,4 +64,4 @@ class Sentiment extends React.Component {
   }
 }
 
-export default Sentiment
+export default Companies

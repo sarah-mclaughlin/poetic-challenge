@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import {getSentiment, getCompanies} from '../apiClient'
 
@@ -13,7 +13,7 @@ class Sentiment extends React.Component {
       zipCode: 0,
       distance: 0,
       units: '',
-      companies: {}
+      companies: []
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick2 = this.handleClick2.bind(this)
@@ -39,7 +39,9 @@ class Sentiment extends React.Component {
   handleClick () {
     getCompanies(this.state)
       .then(res => {
-        return res.body
+        this.setState({
+          companies: res.body.companies
+        })
       })
   }
 
@@ -69,15 +71,15 @@ class Sentiment extends React.Component {
           <button onClick={this.handleClick}>Get Companies</button>
         </p>
         <div>
-          {/* <ul>
-            {this.props.companies.map(company => {
+          <ul>
+            {this.state.companies.map(company => {
               return (
                 <li key={company.companyName}>
                   <Link to={`/company/${company.id}`}>{company.companyName}</Link>
                 </li>
               )
             })}
-          </ul> */}
+          </ul>
         </div>
       </div>
     )

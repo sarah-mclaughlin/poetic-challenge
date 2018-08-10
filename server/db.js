@@ -8,7 +8,6 @@ function populateDatabase (companies, conn = connection) {
 }
 
 function getCompaniesByZipCodes (zipCodes, conn = connection) {
-  console.log(zipCodes)
   return conn('companies')
   // zipCodes is an array of zero or many zip codes
     .where((builder) =>

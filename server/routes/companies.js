@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
   getZipCodes(req.query.data)
     .then(response => {
       const arr = response.zip_codes.map(Number)
-      // console.log(arr)
       db.getCompaniesByZipCodes(arr)
         .then(companies => {
           res.json({companies})

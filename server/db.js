@@ -8,14 +8,19 @@ function populateDatabase (companies, conn = connection) {
 }
 
 function getCompaniesByZipCodes (zipCodes, conn = connection) {
+  console.log(zipCodes)
   return conn('companies')
   // zipCodes is an array of zero or many zip codes
-    .where('zip_code', '=', zipCodes)
+    // .whereIn('zip_code', '=', zipCodes)
+    .where((builder) =>
+      builder.whereIn('zip_code', zipCodes)
+    )
     .select(
-      'orders.id as orderId',
-      'order_items.user_name as userName',
-      'order_items.order_text as orderDetails',
-      'order_items.id as orderItemId'
+      'id',
+      'company_name as companyName',
+      'zip_code as zipCode',
+      'times_rated as timesRated',
+      'total_rating as totalRating'
     )
 }
 

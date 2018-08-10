@@ -11,7 +11,6 @@ function getCompaniesByZipCodes (zipCodes, conn = connection) {
   console.log(zipCodes)
   return conn('companies')
   // zipCodes is an array of zero or many zip codes
-    // .whereIn('zip_code', '=', zipCodes)
     .where((builder) =>
       builder.whereIn('zip_code', zipCodes)
     )

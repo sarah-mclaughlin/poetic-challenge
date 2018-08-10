@@ -12,4 +12,7 @@ export function getSentiment (phrase) {
 export function getCompanies (data) {
   return request.get(companiesUrl)
     .query({data})
+    // .then(res => {
+    //   return res.body
+    // })
 }

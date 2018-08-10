@@ -1,4 +1,5 @@
 import React from 'react'
+// import {Link} from 'react-router-dom'
 
 import {getSentiment, getCompanies} from '../apiClient'
 
@@ -11,7 +12,8 @@ class Sentiment extends React.Component {
       phrase: '',
       zipCode: 0,
       distance: 0,
-      units: ''
+      units: '',
+      companies: {}
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick2 = this.handleClick2.bind(this)
@@ -37,10 +39,7 @@ class Sentiment extends React.Component {
   handleClick () {
     getCompanies(this.state)
       .then(res => {
-        // this.setState({
-        //   confidence: res.body.confidence,
-        //   sentiment: res.body.sentiment
-        // })
+        return res.body
       })
   }
 
@@ -69,6 +68,17 @@ class Sentiment extends React.Component {
           </select>
           <button onClick={this.handleClick}>Get Companies</button>
         </p>
+        <div>
+          {/* <ul>
+            {this.props.companies.map(company => {
+              return (
+                <li key={company.companyName}>
+                  <Link to={`/company/${company.id}`}>{company.companyName}</Link>
+                </li>
+              )
+            })}
+          </ul> */}
+        </div>
       </div>
     )
   }

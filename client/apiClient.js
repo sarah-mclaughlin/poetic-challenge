@@ -9,7 +9,8 @@ export function getCompanies (data) {
 
 export function getCompany (id) {
   return request.get(`${companiesUrl}/company/${id}`)
-    .then(res => {
-      return res.body
-    })
+}
+
+export function rateCompany (data) {
+  return request.put(`${companiesUrl}/rate/${data.id}`)
 }

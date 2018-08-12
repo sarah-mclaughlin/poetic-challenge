@@ -23,12 +23,6 @@ router.get('/', (req, res) => {
 
 router.put('/rate', (req, res) => {
   db.rateCompany(req.body)
-    // .then(() => {
-    //   db.getCompanyById(req.body.id)
-    // })
-    // .then((company) => {
-    //   res.json({company})
-    // })
     .then(() => {
       res.sendStatus(200)
     })

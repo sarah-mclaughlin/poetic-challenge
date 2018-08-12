@@ -28,7 +28,8 @@ class Company extends React.Component {
           companyName: res.body.company[0].companyName,
           zipCode: res.body.company[0].zipCode,
           timesRated: res.body.company[0].timesRated,
-          totalRating: res.body.company[0].totalRating
+          totalRating: res.body.company[0].totalRating,
+          averageRating: res.body.company[0].totalRating / res.body.company[0].timesRated
         })
       })
   }
@@ -57,12 +58,14 @@ class Company extends React.Component {
       })
   }
 
+  // .then(() => this.props.history.push('/profile'))
+
   render () {
     return (
       <div className='app'>
         <div>
           <h1>{this.state.companyName}</h1>
-          <h1>Zip code: {this.state.zipCode}</h1>
+          <h3>Zip code: {this.state.zipCode}</h3>
           <h1>Average rating: {this.state.averageRating}</h1>
         </div>
         <div>
@@ -77,6 +80,7 @@ class Company extends React.Component {
           <br />
           <button onClick={this.handleClick}>Commit rating</button>
           <button onClick={this.handleSubmit}>Submit rating</button>
+          <br />
         </div>
       </div>
     )

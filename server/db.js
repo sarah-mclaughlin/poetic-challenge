@@ -27,9 +27,10 @@ function getCompanyById (id, conn = connection) {
       'times_rated as timesRated',
       'total_rating as totalRating'
     )
+    // .first()
 }
 
-function updateCompanyRating (company, conn = connection) {
+function rateCompany (company, conn = connection) {
   return conn('companies')
     .where('id', '=', company.id)
     .update({
@@ -41,5 +42,5 @@ function updateCompanyRating (company, conn = connection) {
 module.exports = {
   getCompaniesByZipCodes,
   getCompanyById,
-  updateCompanyRating
+  rateCompany
 }

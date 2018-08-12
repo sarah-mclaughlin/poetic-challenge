@@ -16,6 +16,7 @@ class Company extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   componentDidMount () {
@@ -39,15 +40,20 @@ class Company extends React.Component {
   }
 
   handleClick () {
-    const data = {
-      id: Number(this.props.match.params.id),
-      rating: this.state.givenRating
-    }
-    rateCompany(data)
-      .then(res => {
-        // this.setState({
-        //   companies: res.body.companies
-        // })
+    this.setState({
+      timesRated: this.state.timesRated + 1,
+      totalRating: this.state.totalRating + this.state.givenRating
+    })
+    // .then(() => {
+    //   this.props.submitRating(this.state)
+    // })
+  }
+
+  handleSubmit (e) {
+    e.preventDefault()
+    rateCompany(this.state)
+      .then(() => {
+        this.componentDidMount()
       })
   }
 
@@ -69,7 +75,8 @@ class Company extends React.Component {
             <input type="radio" onChange={this.handleChange} name="rating" value="5" /> 5<br />
           </form>
           <br />
-          <button onClick={this.handleClick}>Submit rating</button>
+          <button onClick={this.handleClick}>Commit rating</button>
+          <button onClick={this.handleSubmit}>Submit rating</button>
         </div>
       </div>
     )

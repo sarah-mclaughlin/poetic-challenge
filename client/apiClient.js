@@ -12,5 +12,6 @@ export function getCompany (id) {
 }
 
 export function rateCompany (data) {
-  return request.put(`${companiesUrl}/rate/${data.id}`)
+  return request.put(`${companiesUrl}/rate`)
+    .send(data)
 }

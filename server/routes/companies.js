@@ -5,6 +5,8 @@ const db = require('../db')
 
 const router = express.Router()
 
+router.use(express.json())
+
 router.get('/', (req, res) => {
   getZipCodes(req.query.data)
     .then(response => {
@@ -13,6 +15,22 @@ router.get('/', (req, res) => {
         .then(companies => {
           res.json({companies})
         })
+    })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
+})
+
+router.put('/rate', (req, res) => {
+  db.rateCompany(req.body)
+    // .then(() => {
+    //   db.getCompanyById(req.body.id)
+    // })
+    // .then((company) => {
+    //   res.json({company})
+    // })
+    .then(() => {
+      res.sendStatus(200)
     })
     .catch(err => {
       res.status(500).send(err.message)

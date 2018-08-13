@@ -16,7 +16,7 @@ class Company extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
+    // this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   componentDidMount () {
@@ -40,23 +40,36 @@ class Company extends React.Component {
     })
   }
 
-  handleClick () {
+  handleClick (e) {
+    e.preventDefault()
     this.setState({
       timesRated: this.state.timesRated + 1,
       totalRating: this.state.totalRating + this.state.givenRating
+    }, () => {
+      rateCompany(this.state)
+        .then(() => {
+          this.componentDidMount()
+        })
     })
-    // .then(() => {
-    //   this.props.submitRating(this.state)
-    // })
   }
 
-  handleSubmit (e) {
-    e.preventDefault()
-    rateCompany(this.state)
-      .then(() => {
-        this.componentDidMount()
-      })
-  }
+  // handleClick () {
+  //   this.setState({
+  //     timesRated: this.state.timesRated + 1,
+  //     totalRating: this.state.totalRating + this.state.givenRating
+  //   })
+  //   // .then(() => {
+  //   //   this.props.submitRating(this.state)
+  //   // })
+  // }
+
+  // handleSubmit (e) {
+  //   e.preventDefault()
+  //   rateCompany(this.state)
+  //     .then(() => {
+  //       this.componentDidMount()
+  //     })
+  // }
 
   // .then(() => this.props.history.push('/profile'))
 
@@ -79,7 +92,7 @@ class Company extends React.Component {
           </form>
           <br />
           <button onClick={this.handleClick}>Commit rating</button>
-          <button onClick={this.handleSubmit}>Submit rating</button>
+          {/* <button onClick={this.handleSubmit}>Submit rating</button> */}
           <br />
         </div>
       </div>

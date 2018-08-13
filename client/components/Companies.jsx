@@ -10,6 +10,7 @@ class Companies extends React.Component {
       zipCode: 0,
       distance: 0,
       units: '',
+      loading: 'no',
       companies: []
     }
     this.handleChange = this.handleChange.bind(this)
@@ -22,13 +23,19 @@ class Companies extends React.Component {
     })
   }
 
-  handleClick () {
-    getCompanies(this.state)
-      .then(res => {
-        this.setState({
-          companies: res.body.companies
+  handleClick (e) {
+    e.preventDefault()
+    this.setState({
+      loading: 'yes'
+    }, () => {
+      getCompanies(this.state)
+        .then(res => {
+          this.setState({
+            companies: res.body.companies,
+            loading: 'done'
+          })
         })
-      })
+    })
   }
 
   render () {
@@ -47,18 +54,21 @@ class Companies extends React.Component {
           <br />
           <button onClick={this.handleClick}>Find companies</button>
         </p>
-        {/* this.state.companies.length ? do below : 'there are no companies within that distance'  */}
-        <div>
-          <ul>
-            {this.state.companies.map(company => {
-              return (
-                <li key={company.companyName}>
-                  <Link to={`/company/${company.id}`}>{company.companyName}</Link>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
+        {this.state.loading === 'yes' && <h5>Loading...</h5>}
+        {((!this.state.companies.length) && (this.state.loading === 'done'))
+          ? <h5>There are no companies in that area</h5>
+          : <div>
+            <ul>
+              {this.state.companies.map(company => {
+                return (
+                  <li key={company.companyName}>
+                    <Link to={`/company/${company.id}`}>{company.companyName}</Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        }
       </div>
     )
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+// import NumberFormat from 'react-number-format'
 
 import {getCompany, rateCompany} from '../apiClient'
 
@@ -16,7 +17,6 @@ class Company extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
-    // this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   componentDidMount () {
@@ -44,7 +44,7 @@ class Company extends React.Component {
     e.preventDefault()
     this.setState({
       timesRated: this.state.timesRated + 1,
-      totalRating: this.state.totalRating + this.state.givenRating
+      totalRating: (this.state.totalRating + this.state.givenRating)
     }, () => {
       rateCompany(this.state)
         .then(() => {
@@ -52,24 +52,6 @@ class Company extends React.Component {
         })
     })
   }
-
-  // handleClick () {
-  //   this.setState({
-  //     timesRated: this.state.timesRated + 1,
-  //     totalRating: this.state.totalRating + this.state.givenRating
-  //   })
-  //   // .then(() => {
-  //   //   this.props.submitRating(this.state)
-  //   // })
-  // }
-
-  // handleSubmit (e) {
-  //   e.preventDefault()
-  //   rateCompany(this.state)
-  //     .then(() => {
-  //       this.componentDidMount()
-  //     })
-  // }
 
   // .then(() => this.props.history.push('/profile'))
 
@@ -79,6 +61,7 @@ class Company extends React.Component {
         <div>
           <h1>{this.state.companyName}</h1>
           <h3>Zip code: {this.state.zipCode}</h3>
+          {/* <h1>Average rating: <NumberFormat value={this.state.averageRating} decimalScale={2}/></h1> */}
           <h1>Average rating: {this.state.averageRating}</h1>
         </div>
         <div>
@@ -92,7 +75,6 @@ class Company extends React.Component {
           </form>
           <br />
           <button onClick={this.handleClick}>Commit rating</button>
-          {/* <button onClick={this.handleSubmit}>Submit rating</button> */}
           <br />
         </div>
       </div>

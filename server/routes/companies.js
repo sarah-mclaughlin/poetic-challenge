@@ -43,15 +43,31 @@ router.post('/comment', (req, res) => {
 
 router.get('/company/:id', (req, res) => {
   const id = Number(req.params.id)
-  db.getCompanyById(id)
-    .then(results => {
-      const company = formatResults(results)
-      console.log(company)
-      res.json({company})
+  db.getIds()
+    .then(zipCodes => {
+      const results = zipCodes.map(zipCode => zipCode.companyId)
+      if (results.includes(id)) {
+        db.getCompanyByIdComments(id)
+          .then(results => {
+            const company = formatResults(results)
+            res.json({company})
+          })
+      } else {
+        db.getCompanyById(id)
+          .then(company => {
+            res.json({company})
+          })
+      }
+      // res.json({zipCodes})
     })
-    .catch(err => {
-      res.status(500).send(err.message)
-    })
+  // db.getCompanyByIdComments(id)
+  //   .then(results => {
+  //     const company = formatResults(results)
+  //     res.json({company})
+  //   })
+  //   .catch(err => {
+  //     res.status(500).send(err.message)
+  //   })
 })
 
 function formatResults (results) {

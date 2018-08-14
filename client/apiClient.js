@@ -15,3 +15,8 @@ export function rateCompany (data) {
   return request.put(`${companiesUrl}/rate`)
     .send(data)
 }
+
+export function addComment (data) {
+  return request.post(`${companiesUrl}/comment`)
+    .send(data)
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 // import {withRouter} from 'react-router-dom'
 
-import {getCompany, rateCompany} from '../apiClient'
+import {getCompany, rateCompany, addComment} from '../apiClient'
 
 class Company extends React.Component {
   constructor (props) {
@@ -14,11 +14,15 @@ class Company extends React.Component {
       zipCode: 0,
       timesRated: 0,
       totalRating: 0,
+      comments: [],
       averageRating: 0,
-      givenRating: 0
+      givenRating: 0,
+      comment: ''
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
+    this.handleComment = this.handleComment.bind(this)
+    this.submitComment = this.submitComment.bind(this)
     this.back = this.back.bind(this)
   }
 
@@ -33,7 +37,8 @@ class Company extends React.Component {
           symbol: res.body.company[0].symbol,
           zipCode: res.body.company[0].zipCode,
           timesRated: res.body.company[0].timesRated,
-          totalRating: res.body.company[0].totalRating
+          totalRating: res.body.company[0].totalRating,
+          comments: res.body.company[0].comments || []
           // averageRating: res.body.company[0].totalRating / res.body.company[0].timesRated
         }, () => {
           this.setState(() => {
@@ -63,6 +68,23 @@ class Company extends React.Component {
     })
   }
 
+  handleComment (e) {
+    this.setState({
+      comment: e.target.value
+    })
+  }
+
+  submitComment () {
+    const data = {
+      id: this.state.id,
+      comment: this.state.comment
+    }
+    addComment(data)
+      .then(() => {
+        this.componentDidMount()
+      })
+  }
+
   back (e) {
     // return this.props.history.push('/')
     return this.props.history.goBack()
@@ -77,10 +99,10 @@ class Company extends React.Component {
           <h1>{this.state.companyName} ({this.state.symbol})</h1>
           <h2>Sector: {this.state.sector}</h2>
           <h3>Zip code: {this.state.zipCode}</h3>
-          <h1>Average rating: {this.state.averageRating}</h1>
+          <h2>Average rating: {this.state.averageRating ? <h2>{this.state.averageRating}</h2> : <h2>This company has no ratings</h2>}</h2>
         </div>
         <div>
-          <h2>Rate this company out of 5</h2>
+          <h4>Rate this company out of 5</h4>
           <form>
             <input type="radio" onChange={this.handleChange} name="rating" value="1" /> 1<br />
             <input type="radio" onChange={this.handleChange} name="rating" value="2" /> 2<br />
@@ -88,9 +110,22 @@ class Company extends React.Component {
             <input type="radio" onChange={this.handleChange} name="rating" value="4" /> 4<br />
             <input type="radio" onChange={this.handleChange} name="rating" value="5" /> 5<br />
           </form>
-          <br />
           <button onClick={this.handleClick}>Commit rating</button>
           <br />
+          <br />
+          <p>
+            Leave a comment: <input type="text" onChange={this.handleComment} name='comment' /><br />
+            <button onClick={this.submitComment}>Submit comment</button>
+          </p>
+          <div>
+            <ul>
+              {this.state.comments.map(comment => {
+                return (
+                  <li key={comment}>{comment}</li>
+                )
+              })}
+            </ul>
+          </div>
           {/* <a href="javascript:history.back()">Go back</a> */}
           <button onClick={this.back}>Back</button>
         </div>
@@ -100,4 +135,3 @@ class Company extends React.Component {
 }
 
 export default Company
-// export default withRouter(Company)

@@ -75,7 +75,7 @@ class Company extends React.Component {
       <div className='app'>
         <div>
           <h1>{this.state.companyName} ({this.state.symbol})</h1>
-          <h2>{this.state.sector}</h2>
+          <h2>Sector: {this.state.sector}</h2>
           <h3>Zip code: {this.state.zipCode}</h3>
           <h1>Average rating: {this.state.averageRating}</h1>
         </div>

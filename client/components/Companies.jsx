@@ -11,10 +11,14 @@ class Companies extends React.Component {
       distance: 0,
       units: '',
       loading: 'no',
-      companies: []
+      companies: [],
+      sector: ''
+      // filter: true
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
+    this.handleFilter = this.handleFilter.bind(this)
+    this.applyFilter = this.applyFilter.bind(this)
     // this.clear = this.clear.bind(this)
   }
 
@@ -38,6 +42,39 @@ class Companies extends React.Component {
         })
     })
   }
+
+  handleFilter (e) {
+    // e.preventDefault()
+    this.setState({
+      sector: e.target.value
+    })
+  }
+
+  applyFilter (e) {
+    e.preventDefault()
+    this.state.sector
+      ? this.setState({
+        companies: this.state.companies.filter(company => {
+          return company.sector === this.state.sector
+        })
+      })
+      : this.handleClick(e)
+  }
+
+  // handleFilter (e) {
+  //   e.preventDefault()
+  //   this.setState({
+  //     sector: e.target.value
+  //   }, () => {
+  //     this.state.sector
+  //       ? this.setState({
+  //         companies: this.state.companies.filter(company => {
+  //           return company.sector === e.target.value
+  //         })
+  //       })
+  //       : this.handleClick(e)
+  //   })
+  // }
 
   // clear () {
   //   this.setState({
@@ -66,6 +103,31 @@ class Companies extends React.Component {
           <button onClick={this.handleClick}>Find companies</button>
         </p>
         {this.state.loading === 'yes' && <h5>Loading...</h5>}
+
+        {((this.state.companies.length) && (this.state.loading === 'done')) &&
+        <div>
+          <h4>Filter by sector: </h4>
+          <select name="sector" onChange={this.handleFilter}>
+            <option value='' selected> -- select an option -- </option>
+            <option value="Consumer Discretionary">Consumer Discretionary</option>
+            <option value="Consumer Staples">Consumer Staples</option>
+            <option value="Energy">Energy</option>
+            <option value="Financials">Financials</option>
+            <option value="Health Care">Health Care</option>
+            <option value="Industrials">Industrials</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Materials">Materials</option>
+            <option value="Utilities">Utilities</option>
+            {/* {this.state.sectors.map(sector => {
+              return (
+                <option value={sector} key={sector}>{sector}</option>
+              )
+            })} */}
+          </select>
+          <button onClick={this.applyFilter}>Apply filter</button>
+        </div>
+        }
+
         {((!this.state.companies.length) && (this.state.loading === 'done'))
           ? <h5>There are no companies in that area</h5>
           : <div>

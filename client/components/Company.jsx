@@ -1,5 +1,5 @@
 import React from 'react'
-// import NumberFormat from 'react-number-format'
+// import {withRouter} from 'react-router-dom'
 
 import {getCompany, rateCompany} from '../apiClient'
 
@@ -9,6 +9,8 @@ class Company extends React.Component {
     this.state = {
       id: 0,
       companyName: '',
+      sector: '',
+      symbol: '',
       zipCode: 0,
       timesRated: 0,
       totalRating: 0,
@@ -17,6 +19,7 @@ class Company extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
+    this.back = this.back.bind(this)
   }
 
   componentDidMount () {
@@ -26,10 +29,17 @@ class Company extends React.Component {
         this.setState({
           id: res.body.company[0].id,
           companyName: res.body.company[0].companyName,
+          sector: res.body.company[0].sector,
+          symbol: res.body.company[0].symbol,
           zipCode: res.body.company[0].zipCode,
           timesRated: res.body.company[0].timesRated,
-          totalRating: res.body.company[0].totalRating,
-          averageRating: res.body.company[0].totalRating / res.body.company[0].timesRated
+          totalRating: res.body.company[0].totalRating
+          // averageRating: res.body.company[0].totalRating / res.body.company[0].timesRated
+        }, () => {
+          this.setState(() => {
+            const number = this.state.totalRating / this.state.timesRated
+            return {averageRating: Number(number.toString().split('', 4).join(''))}
+          })
         })
       })
   }
@@ -53,15 +63,20 @@ class Company extends React.Component {
     })
   }
 
+  back (e) {
+    // return this.props.history.push('/')
+    return this.props.history.goBack()
+  }
+
   // .then(() => this.props.history.push('/profile'))
 
   render () {
     return (
       <div className='app'>
         <div>
-          <h1>{this.state.companyName}</h1>
+          <h1>{this.state.companyName} ({this.state.symbol})</h1>
+          <h2>{this.state.sector}</h2>
           <h3>Zip code: {this.state.zipCode}</h3>
-          {/* <h1>Average rating: <NumberFormat value={this.state.averageRating} decimalScale={2}/></h1> */}
           <h1>Average rating: {this.state.averageRating}</h1>
         </div>
         <div>
@@ -76,6 +91,8 @@ class Company extends React.Component {
           <br />
           <button onClick={this.handleClick}>Commit rating</button>
           <br />
+          {/* <a href="javascript:history.back()">Go back</a> */}
+          <button onClick={this.back}>Back</button>
         </div>
       </div>
     )
@@ -83,3 +100,4 @@ class Company extends React.Component {
 }
 
 export default Company
+// export default withRouter(Company)

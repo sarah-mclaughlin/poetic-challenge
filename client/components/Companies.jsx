@@ -15,6 +15,7 @@ class Companies extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
+    // this.clear = this.clear.bind(this)
   }
 
   handleChange (e) {
@@ -37,6 +38,16 @@ class Companies extends React.Component {
         })
     })
   }
+
+  // clear () {
+  //   this.setState({
+  //     zipCode: 0,
+  //     distance: 0,
+  //     units: '',
+  //     loading: 'no',
+  //     companies: []
+  //   })
+  // }
 
   render () {
     return (
@@ -69,6 +80,7 @@ class Companies extends React.Component {
             </ul>
           </div>
         }
+        {/* {this.state.companies.length && <button onClick={this.clear}>Clear</button>} */}
       </div>
     )
   }

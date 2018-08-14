@@ -11,6 +11,8 @@ function getCompaniesByZipCodes (zipCodes, conn = connection) {
     .select(
       'id',
       'company_name as companyName',
+      'sector',
+      'symbol',
       'zip_code as zipCode',
       'times_rated as timesRated',
       'total_rating as totalRating'
@@ -23,6 +25,8 @@ function getCompanyById (id, conn = connection) {
     .select(
       'id',
       'company_name as companyName',
+      'sector',
+      'symbol',
       'zip_code as zipCode',
       'times_rated as timesRated',
       'total_rating as totalRating'

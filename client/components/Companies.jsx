@@ -18,7 +18,8 @@ class Companies extends React.Component {
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
     this.handleFilter = this.handleFilter.bind(this)
-    this.applyFilter = this.applyFilter.bind(this)
+    // this.applyFilter = this.applyFilter.bind(this)
+    this.resetFilter = this.resetFilter.bind(this)
     // this.clear = this.clear.bind(this)
   }
 
@@ -44,22 +45,41 @@ class Companies extends React.Component {
   }
 
   handleFilter (e) {
-    // e.preventDefault()
+    e.preventDefault()
     this.setState({
-      sector: e.target.value
+      sector: e.target.value,
+      companies: this.state.companies.filter(company => {
+        return company.sector === e.target.value
+      })
     })
   }
 
-  applyFilter (e) {
-    e.preventDefault()
-    this.state.sector
-      ? this.setState({
-        companies: this.state.companies.filter(company => {
-          return company.sector === this.state.sector
-        })
-      })
-      : this.handleClick(e)
+  resetFilter (e) {
+    this.setState({
+      companies: []
+    }, () => {
+      this.handleClick(e)
+    }
+    )
   }
+
+  // handleFilter (e) {
+  //   // e.preventDefault()
+  //   this.setState({
+  //     sector: e.target.value
+  //   })
+  // }
+
+  // applyFilter (e) {
+  //   e.preventDefault()
+  //   this.state.sector
+  //     ? this.setState({
+  //       companies: this.state.companies.filter(company => {
+  //         return company.sector === this.state.sector
+  //       })
+  //     })
+  //     : this.handleClick(e)
+  // }
 
   // handleFilter (e) {
   //   e.preventDefault()
@@ -106,7 +126,7 @@ class Companies extends React.Component {
 
         {((this.state.companies.length) && (this.state.loading === 'done')) &&
         <div>
-          <h4>Filter by sector: </h4>
+          <h5>Filter by sector: </h5>
           <select name="sector" onChange={this.handleFilter}>
             <option value='' selected> -- select an option -- </option>
             <option value="Consumer Discretionary">Consumer Discretionary</option>
@@ -124,12 +144,12 @@ class Companies extends React.Component {
               )
             })} */}
           </select>
-          <button onClick={this.applyFilter}>Apply filter</button>
+          <button onClick={this.resetFilter}>Reset filter</button>
         </div>
         }
 
         {((!this.state.companies.length) && (this.state.loading === 'done'))
-          ? <h5>There are no companies in that area</h5>
+          ? <h5>There are no {this.state.sector && <h5>{this.state.sector}</h5>}companies in that area</h5>
           : <div>
             <ul>
               {this.state.companies.map(company => {

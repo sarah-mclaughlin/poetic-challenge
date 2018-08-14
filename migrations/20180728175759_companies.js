@@ -1,6 +1,6 @@
 exports.up = (knex, Promise) => {
   return knex.schema.createTable('companies', table => {
-    table.increments('id')
+    table.increments('id').primary()
     table.string('company_name')
     table.string('sector')
     table.string('symbol')

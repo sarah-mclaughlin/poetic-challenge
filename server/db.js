@@ -21,15 +21,17 @@ function getCompaniesByZipCodes (zipCodes, conn = connection) {
 
 function getCompanyById (id, conn = connection) {
   return conn('companies')
-    .where('id', '=', id)
+    .join('comments', 'comments.company_id', '=', 'companies.id')
+    .where('companies.id', '=', id)
     .select(
-      'id',
+      'companies.id as id',
       'company_name as companyName',
       'sector',
       'symbol',
       'zip_code as zipCode',
       'times_rated as timesRated',
-      'total_rating as totalRating'
+      'total_rating as totalRating',
+      'comment'
     )
     // .first()
 }
@@ -43,8 +45,17 @@ function rateCompany (company, conn = connection) {
     })
 }
 
+function addComment (comment, conn = connection) {
+  return conn('comments')
+    .insert({
+      'company_id': comment.companyId,
+      'comment': comment.comment
+    })
+}
+
 module.exports = {
   getCompaniesByZipCodes,
   getCompanyById,
-  rateCompany
+  rateCompany,
+  addComment
 }

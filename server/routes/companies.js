@@ -31,15 +31,49 @@ router.put('/rate', (req, res) => {
     })
 })
 
+router.post('/comment', (req, res) => {
+  db.addComment(req.body)
+    .then(() => {
+      res.sendStatus(200)
+    })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
+})
+
 router.get('/company/:id', (req, res) => {
   const id = Number(req.params.id)
   db.getCompanyById(id)
-    .then(company => {
+    .then(results => {
+      const company = formatResults(results)
+      console.log(company)
       res.json({company})
     })
     .catch(err => {
       res.status(500).send(err.message)
     })
 })
+
+function formatResults (results) {
+  const formatted = []
+  results.forEach(result => {
+    if (!formatted.some(item => item.id === result.id)) {
+      formatted.push({
+        id: result.id,
+        companyName: result.companyName,
+        sector: result.sector,
+        symbol: result.symbol,
+        zipCode: result.zipCode,
+        timesRated: result.timesRated,
+        totalRating: result.totalRating,
+        comments: [result.comment]
+      })
+    } else {
+      const existing = formatted.find(item => item.id === result.id)
+      existing.comments.push(result.comment)
+    }
+  })
+  return formatted
+}
 
 module.exports = router

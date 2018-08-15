@@ -124,7 +124,7 @@ class Company extends React.Component {
             <br />
             <div>
               <h4>Leave a comment about this company: </h4><input type="text" onChange={this.handleComment} name='comment' />
-              <button onClick={this.submitComment}>Submit comment</button>
+              <button className='submit-button' onClick={this.submitComment}>Submit comment</button>
             </div>
             <br />
             <div>
@@ -133,7 +133,7 @@ class Company extends React.Component {
                 {this.state.comments.map(comment => {
                   return (
                     <li key={comment.id}>{comment.comment}
-                      <button id={comment.id} value={comment.id} onClick={this.handleDelete}>x</button>
+                      <button className='delete-button' id={comment.id} onClick={this.handleDelete}>X</button>
                     </li>
                   )
                 })}

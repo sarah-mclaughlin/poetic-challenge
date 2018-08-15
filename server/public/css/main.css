@@ -22,6 +22,16 @@ button {
   background-color: rgba(127, 255, 212, 0.6);
 }
 
+.delete-button {
+  margin-left: 5px;
+  padding: 15px;
+  line-height: 5px;
+}
+
+.submit-button {
+  padding: 0px;
+}
+
 /* * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

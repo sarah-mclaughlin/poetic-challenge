@@ -35,6 +35,7 @@ function getCompanyByIdComments (id, conn = connection) {
     )
 }
 
+// shouldn't need this function
 function getIds (conn = connection) {
   return conn('comments')
     .select(
@@ -42,6 +43,7 @@ function getIds (conn = connection) {
     )
 }
 
+// shouldn't need this function
 function getCompanyById (id, conn = connection) {
   return conn('companies')
     .where('companies.id', '=', id)

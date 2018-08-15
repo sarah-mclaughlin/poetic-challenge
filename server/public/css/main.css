@@ -1,0 +1,219 @@
+/* * {
+  border: 2px red;
+} */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ---- example css */
+
+/* * {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 100%; 
+}
+
+body {
+  overflow-y:scroll
+}
+
+.min480 {
+  min-width: 480px;
+}
+
+.fontsize05 {
+  font-size: 1.25em;
+}
+.fontsize075 {
+  font-size: 1.25em;
+}
+.fontsize125 {
+  font-size: 1.25em;
+}
+.fontsize150 {
+  font-size: 1.50em;
+}
+.fontsize175 {
+  font-size: 1.75em;
+}
+.fontsize200 {
+  font-size: 2.00em;
+}
+.fontsize250 {
+  font-size: 2.50em;
+}
+.margin-bottom {
+  margin-bottom: 0.3%;
+}
+.span-margin-bottom {
+  line-height: 1.5;
+}
+
+.new-matter {
+  padding: 1em 6em 1em 6em;
+}
+
+.text-input {
+  display: flex;
+}
+
+.matter {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.input-right {
+  float: right;
+}
+
+.input-left {
+  float: left;
+}
+
+.register {
+  padding: 1em 10em 1em 10em;
+}
+
+.matter-list-wrapper {
+  width: 100%;
+}
+
+.flex-alignleft {
+  display: flex;
+}
+
+.flex-alignright {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.center-horizontally {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.center-vertical, .center-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.push-apart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.padded-interior {
+  padding: 0em 1em;
+}
+
+.center {
+  align-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.filter-wrapper {
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+.register-btn {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.login {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 33%;
+  padding-right: 33%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.matter-title, .register-title {
+  color: #b52545;
+}
+
+.category-dropdown {
+  text-align: left;
+}
+
+.submit-matter-title {
+  font-size: 1.5em;
+}
+
+.list-empty {
+  color: #b52545;
+  position: relative;
+}
+
+.section-wrapper {
+  padding-top: 3em;
+}
+
+.role-indicator {
+  width: 20%;
+}
+
+.pageHeader {
+  color: #3f51b5;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.header-text {
+  color: #3f51b5;
+  font-size: 2.5em;
+}
+
+.title-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.secondary-text {
+  color: rgba(80, 80, 80, 0.8);
+}
+
+.body-text {
+  color: rgba(50, 50, 50, 0.8);
+}
+
+.primary-text {
+  color: rgb(0, 0, 0);
+}
+
+.red-text {
+  color: #C10037;
+}
+
+.blue-text {
+  color: #3f51b5;
+}
+
+.green-text {
+  color: #24b56f;
+} */
+
+/* random yellow on community law is #D4BD68 */
+/*one  red is #C7003C */
+/* other red is #C10037 */
+/* off white is #F8FAF0

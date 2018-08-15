@@ -41,6 +41,8 @@ router.post('/comment', (req, res) => {
     })
 })
 
+// this is ugly! Re-write function so that only if db.getCompanyById
+// returns a length > 1 then formatResults is run on it.
 router.get('/company/:id', (req, res) => {
   const id = Number(req.params.id)
   db.getIds()
@@ -52,22 +54,22 @@ router.get('/company/:id', (req, res) => {
             const company = formatResults(results)
             res.json({company})
           })
+          .catch(err => {
+            res.status(500).send(err.message)
+          })
       } else {
         db.getCompanyById(id)
           .then(company => {
             res.json({company})
           })
+          .catch(err => {
+            res.status(500).send(err.message)
+          })
       }
-      // res.json({zipCodes})
     })
-  // db.getCompanyByIdComments(id)
-  //   .then(results => {
-  //     const company = formatResults(results)
-  //     res.json({company})
-  //   })
-  //   .catch(err => {
-  //     res.status(500).send(err.message)
-  //   })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
 })
 
 function formatResults (results) {

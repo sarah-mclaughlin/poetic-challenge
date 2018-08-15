@@ -93,20 +93,22 @@ class Companies extends React.Component {
       <div className='app'>
         <div className='app-container'>
           <h1 className='company-finder'>Company Finder</h1><br />
-          <h2>Choose my distance</h2>
+          <h2>Choose my area...</h2>
           <p>
           Zip code: <input name='zipCode' onChange={this.handleChange} /><br />
           Distance: <input name='distance' onChange={this.handleChange} /><br />
           Units:
             <select name="units" onChange={this.handleChange}>
               <option disabled selected value> -- select an option -- </option>
-              <option value="kilometres">Kilometres</option>
+              <option value="kilometres">Kilometers</option>
               <option value="miles">Miles</option>
             </select>
             <br />
             <button onClick={this.handleClick}>Find companies</button>
           </p>
-          {this.state.loading === 'yes' && <h5>Loading...</h5>}
+          {/* {this.state.loading === 'yes' && <h5>Loading...</h5>} */}
+
+          {this.state.loading === 'yes' && <h5>Searching for companies in or within {this.state.distance} {this.state.units} of zip code {this.state.zipCode}...</h5>}
 
           {(this.state.companies.length && this.state.loading === 'done')
             ? <div>
@@ -130,7 +132,7 @@ class Companies extends React.Component {
           }
 
           {((!this.state.companies.length) && (this.state.loading === 'done'))
-            ? <h5>There are no {this.state.sector && <h5>{this.state.sector}</h5>}companies in that area</h5>
+            ? <h5>There are no {this.state.sector && <h5>{this.state.sector}</h5>}companies in that area.</h5>
             : <div>
               <ul>
                 {this.state.companies.map(company => {

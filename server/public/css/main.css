@@ -1,13 +1,33 @@
-/* * {
-  border: 2px red;
+/* .app {
 } */
 
-* {
+.app-container {
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 3em;
+  margin: auto;
+  margin-top: 4em;
+  width: 26em;
+}
+
+.company-finder, .company-name {
+  background-color: aquamarine;
+  padding: 0.5em;
+  border-radius: 5%;
+  text-align: center;
+  font-weight: 550;
+}
+
+button {
+  background-color: rgba(127, 255, 212, 0.6);
+}
+
+/* * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
+} */
 
 /* ---- example css */
 

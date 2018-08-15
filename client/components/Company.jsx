@@ -95,40 +95,43 @@ class Company extends React.Component {
   render () {
     return (
       <div className='app'>
-        <div>
-          <h1>{this.state.companyName} ({this.state.symbol})</h1>
-          <h3>Sector: {this.state.sector}</h3>
-          {/* <h3>Zip code: {this.state.zipCode}</h3> */}
-          <h3>Average rating: {this.state.averageRating ? <h3>{this.state.averageRating}</h3> : <h4>This company has no ratings</h4>}</h3>
-        </div>
-        <div>
-          <h4>Rate this company overall out of 5</h4>
-          <form>
-            <input type="radio" onChange={this.handleChange} name="rating" value="1" /> 1 - terrible<br />
-            <input type="radio" onChange={this.handleChange} name="rating" value="2" /> 2 - poor<br />
-            <input type="radio" onChange={this.handleChange} name="rating" value="3" /> 3 - neutral<br />
-            <input type="radio" onChange={this.handleChange} name="rating" value="4" /> 4 - good<br />
-            <input type="radio" onChange={this.handleChange} name="rating" value="5" /> 5 - excellent<br />
-          </form>
-          <button onClick={this.handleClick}>Commit rating</button>
-          <br />
-          <br />
+        <div className='app-container'>
           <div>
-            <h4>Leave a comment about this company: </h4><input type="text" onChange={this.handleComment} name='comment' />
-            <button onClick={this.submitComment}>Submit comment</button>
+            <h1 className='company-name'>{this.state.companyName} ({this.state.symbol})</h1>
+            <h3>Sector: {this.state.sector}</h3>
+            {/* <h3>Zip code: {this.state.zipCode}</h3> */}
+            <h3>Average rating: {this.state.averageRating ? <h3>{this.state.averageRating}</h3> : <h4>This company has no ratings</h4>}</h3>
           </div>
           <div>
-            <h5>Comments about this company</h5>
-            <ul>
-              {this.state.comments.map(comment => {
-                return (
-                  <li key={comment}>{comment}</li>
-                )
-              })}
-            </ul>
+            <h4>Rate this company overall out of 5</h4>
+            <form>
+              <input type="radio" onChange={this.handleChange} name="rating" value="1" /> 1 - terrible<br />
+              <input type="radio" onChange={this.handleChange} name="rating" value="2" /> 2 - poor<br />
+              <input type="radio" onChange={this.handleChange} name="rating" value="3" /> 3 - neutral<br />
+              <input type="radio" onChange={this.handleChange} name="rating" value="4" /> 4 - good<br />
+              <input type="radio" onChange={this.handleChange} name="rating" value="5" /> 5 - excellent<br />
+            </form>
+            <button onClick={this.handleClick}>Commit rating</button>
+            <br />
+            <br />
+            <div>
+              <h4>Leave a comment about this company: </h4><input type="text" onChange={this.handleComment} name='comment' />
+              <button onClick={this.submitComment}>Submit comment</button>
+            </div>
+            <br />
+            <div>
+              <h5>Comments about this company:</h5>
+              <ul>
+                {this.state.comments.map(comment => {
+                  return (
+                    <li key={comment}>{comment}</li>
+                  )
+                })}
+              </ul>
+            </div>
+            {/* <a href="javascript:history.back()">Go back</a> */}
+            <button onClick={this.back}>Home</button>
           </div>
-          {/* <a href="javascript:history.back()">Go back</a> */}
-          <button onClick={this.back}>Home</button>
         </div>
       </div>
     )

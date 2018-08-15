@@ -20,3 +20,7 @@ export function addComment (data) {
   return request.post(`${companiesUrl}/comment`)
     .send(data)
 }
+
+export function deleteComment (id) {
+  return request.delete(`${companiesUrl}/${id}`)
+}

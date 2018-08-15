@@ -41,6 +41,17 @@ router.post('/comment', (req, res) => {
     })
 })
 
+router.delete('/:id', (req, res) => {
+  const id = Number(req.params.id)
+  db.deleteComment(id)
+    .then(() => {
+      res.sendStatus(200)
+    })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
+})
+
 // this is ugly! Re-write function so that only if db.getCompanyById
 // returns a length > 1 then formatResults is run on it.
 router.get('/company/:id', (req, res) => {
@@ -84,11 +95,21 @@ function formatResults (results) {
         zipCode: result.zipCode,
         timesRated: result.timesRated,
         totalRating: result.totalRating,
-        comments: [result.comment]
+        comments: [
+          {
+            id: result.commentId,
+            comment: result.comment
+          }
+        ]
       })
     } else {
       const existing = formatted.find(item => item.id === result.id)
-      existing.comments.push(result.comment)
+      existing.comments.push(
+        {
+          id: result.commentId,
+          comment: result.comment
+        }
+      )
     }
   })
   return formatted

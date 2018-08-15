@@ -30,6 +30,7 @@ function getCompanyByIdComments (id, conn = connection) {
       'zip_code as zipCode',
       'times_rated as timesRated',
       'total_rating as totalRating',
+      'comments.id as commentId',
       'comment'
     )
 }
@@ -74,11 +75,18 @@ function addComment (comment, conn = connection) {
     })
 }
 
+function deleteComment (id, conn = connection) {
+  return conn('comments')
+    .where('id', id)
+    .del()
+}
+
 module.exports = {
   getCompaniesByZipCodes,
   getCompanyByIdComments,
   getCompanyById,
   getIds,
   rateCompany,
-  addComment
+  addComment,
+  deleteComment
 }

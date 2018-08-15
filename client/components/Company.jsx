@@ -1,7 +1,7 @@
 import React from 'react'
 // import {withRouter} from 'react-router-dom'
 
-import {getCompany, rateCompany, addComment} from '../apiClient'
+import {getCompany, rateCompany, addComment, deleteComment} from '../apiClient'
 
 class Company extends React.Component {
   constructor (props) {
@@ -23,6 +23,7 @@ class Company extends React.Component {
     this.handleClick = this.handleClick.bind(this)
     this.handleComment = this.handleComment.bind(this)
     this.submitComment = this.submitComment.bind(this)
+    this.handleDelete = this.handleDelete.bind(this)
     this.back = this.back.bind(this)
   }
 
@@ -39,7 +40,6 @@ class Company extends React.Component {
           timesRated: res.body.company[0].timesRated,
           totalRating: res.body.company[0].totalRating,
           comments: res.body.company[0].comments || []
-          // averageRating: res.body.company[0].totalRating / res.body.company[0].timesRated
         }, () => {
           this.setState(() => {
             const number = this.state.totalRating / this.state.timesRated
@@ -68,6 +68,15 @@ class Company extends React.Component {
     })
   }
 
+  handleDelete (e) {
+    e.preventDefault()
+    const id = Number(e.target.id)
+    deleteComment(id)
+      .then(() => {
+        this.componentDidMount()
+      })
+  }
+
   handleComment (e) {
     this.setState({
       comment: e.target.value
@@ -89,8 +98,6 @@ class Company extends React.Component {
     // return this.props.history.push('/')
     return this.props.history.goBack()
   }
-
-  // .then(() => this.props.history.push('/profile'))
 
   render () {
     return (
@@ -125,7 +132,9 @@ class Company extends React.Component {
               <ul>
                 {this.state.comments.map(comment => {
                   return (
-                    <li key={comment}>{comment}</li>
+                    <li key={comment.id}>{comment.comment}
+                      <button id={comment.id} value={comment.id} onClick={this.handleDelete}>x</button>
+                    </li>
                   )
                 })}
               </ul>

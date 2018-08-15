@@ -113,6 +113,7 @@ class Companies extends React.Component {
               <h5>Filter by sector: </h5>
               <select name="sector" onChange={this.handleFilter}>
                 <option value='' selected> -- select an option -- </option>
+                {/* Could map over an array of sectors to simplify */}
                 <option value="Consumer Discretionary">Consumer Discretionary</option>
                 <option value="Consumer Staples">Consumer Staples</option>
                 <option value="Energy">Energy</option>

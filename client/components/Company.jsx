@@ -105,6 +105,7 @@ class Company extends React.Component {
           <div>
             <h4>Rate this company overall out of 5</h4>
             <form>
+              {/* Could map over an array of numbers to simplify */}
               <input type="radio" onChange={this.handleChange} name="rating" value="1" /> 1 - terrible<br />
               <input type="radio" onChange={this.handleChange} name="rating" value="2" /> 2 - poor<br />
               <input type="radio" onChange={this.handleChange} name="rating" value="3" /> 3 - neutral<br />

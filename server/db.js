@@ -4,7 +4,6 @@ const connection = require('knex')(config)
 
 function getCompaniesByZipCodes (zipCodes, conn = connection) {
   return conn('companies')
-  // zipCodes is an array of zero or many zip codes
     .where((builder) =>
       builder.whereIn('zip_code', zipCodes)
     )

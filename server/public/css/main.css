@@ -18,6 +18,15 @@
   font-weight: 550;
 }
 
+.company-info {
+  text-align: center;
+}
+
+.rating {
+  margin: 15px;
+  padding-left: 5em;
+}
+
 button {
   background-color: rgba(127, 255, 212, 0.6);
 }
@@ -31,6 +40,8 @@ button {
 .submit-button {
   padding: 0px;
   margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .units {

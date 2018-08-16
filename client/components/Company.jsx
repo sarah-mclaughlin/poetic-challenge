@@ -105,12 +105,12 @@ class Company extends React.Component {
         <div className='app-container'>
           <div>
             <h1 className='company-name'>{this.state.companyName} ({this.state.symbol})</h1>
-            <h3>Sector: {this.state.sector}</h3>
-            {/* <h3>Zip code: {this.state.zipCode}</h3> */}
-            <h3>Average rating: {this.state.averageRating ? <h3>{this.state.averageRating}</h3> : <h4>This company has no ratings</h4>}</h3>
+            <h3 className='company-info'>Average rating {this.state.averageRating ? <h1 className='company-info'>{this.state.averageRating}</h1> : <h4>This company has no ratings</h4>}</h3>
+            {/* <h5 className='company-info'>Sector: {this.state.sector}</h5>
+            <h5 className='company-info'>Zip code: {this.state.zipCode}</h5> */}
           </div>
           <div>
-            <h4>Rate this company overall out of 5</h4>
+            <h4>Rate this company out of 5</h4>
             <form>
               {/* Could map over an array of numbers to simplify */}
               <input type="radio" onChange={this.handleChange} name="rating" value="1" /> 1 - terrible<br />

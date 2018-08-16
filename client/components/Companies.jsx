@@ -109,7 +109,7 @@ class Companies extends React.Component {
           </p>
           {/* {this.state.loading === 'yes' && <h5>Loading...</h5>} */}
 
-          {this.state.loading === 'yes' && <h5>Searching for companies within {this.state.distance} {this.state.units} of zip code {this.state.zipCode}...</h5>}
+          {this.state.loading === 'yes' && <h5>Searching for companies within {this.state.distance} {this.state.units} of {this.state.zipCode}...</h5>}
 
           {(this.state.companies.length && this.state.loading === 'done')
             ? <div>

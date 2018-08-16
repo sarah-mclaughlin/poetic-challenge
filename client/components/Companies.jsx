@@ -93,22 +93,23 @@ class Companies extends React.Component {
       <div className='app'>
         <div className='app-container'>
           <h1 className='company-finder'>Company Finder</h1><br />
-          <h2>Choose my area...</h2>
+          <h2>Define your area...</h2>
           <p>
           Zip code: <input name='zipCode' onChange={this.handleChange} /><br />
           Distance: <input name='distance' onChange={this.handleChange} /><br />
           Units:
-            <select name="units" onChange={this.handleChange}>
+            <select className='units' name="units" onChange={this.handleChange}>
               <option disabled selected value> -- select an option -- </option>
               <option value="kilometres">Kilometers</option>
               <option value="miles">Miles</option>
             </select>
             <br />
+            <br />
             <button onClick={this.handleClick}>Find companies</button>
           </p>
           {/* {this.state.loading === 'yes' && <h5>Loading...</h5>} */}
 
-          {this.state.loading === 'yes' && <h5>Searching for companies in or within {this.state.distance} {this.state.units} of zip code {this.state.zipCode}...</h5>}
+          {this.state.loading === 'yes' && <h5>Searching for companies within {this.state.distance} {this.state.units} of zip code {this.state.zipCode}...</h5>}
 
           {(this.state.companies.length && this.state.loading === 'done')
             ? <div>

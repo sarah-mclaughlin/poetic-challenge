@@ -6,8 +6,8 @@
   border-radius: 5%;
   padding: 3em;
   margin: auto;
-  margin-top: 4em;
-  width: 26em;
+  margin-top: 3em;
+  width: 45em;
 }
 
 .company-finder, .company-name {
@@ -30,6 +30,11 @@ button {
 
 .submit-button {
   padding: 0px;
+  margin-left: 5px;
+}
+
+.units {
+  margin-left: 28px;
 }
 
 /* * {

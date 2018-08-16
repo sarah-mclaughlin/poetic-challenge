@@ -1,5 +1,4 @@
 import React from 'react'
-// import {withRouter} from 'react-router-dom'
 
 import {getCompany, rateCompany, addComment, deleteComment} from '../apiClient'
 
@@ -139,7 +138,6 @@ class Company extends React.Component {
                 })}
               </ul>
             </div>
-            {/* <a href="javascript:history.back()">Go back</a> */}
             <button onClick={this.back}>Home</button>
           </div>
         </div>

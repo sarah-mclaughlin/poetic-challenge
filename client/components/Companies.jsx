@@ -13,14 +13,11 @@ class Companies extends React.Component {
       loading: 'no',
       companies: [],
       sector: ''
-      // filter: true
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleClick = this.handleClick.bind(this)
     this.handleFilter = this.handleFilter.bind(this)
-    // this.applyFilter = this.applyFilter.bind(this)
     this.resetFilter = this.resetFilter.bind(this)
-    // this.clear = this.clear.bind(this)
   }
 
   handleChange (e) {
@@ -63,31 +60,6 @@ class Companies extends React.Component {
     )
   }
 
-  // handleFilter (e) {
-  //   e.preventDefault()
-  //   this.setState({
-  //     sector: e.target.value
-  //   }, () => {
-  //     this.state.sector
-  //       ? this.setState({
-  //         companies: this.state.companies.filter(company => {
-  //           return company.sector === e.target.value
-  //         })
-  //       })
-  //       : this.handleClick(e)
-  //   })
-  // }
-
-  // clear () {
-  //   this.setState({
-  //     zipCode: 0,
-  //     distance: 0,
-  //     units: '',
-  //     loading: 'no',
-  //     companies: []
-  //   })
-  // }
-
   render () {
     return (
       <div className='app'>
@@ -107,7 +79,6 @@ class Companies extends React.Component {
             <br />
             <button onClick={this.handleClick}>Find companies</button>
           </p>
-          {/* {this.state.loading === 'yes' && <h5>Loading...</h5>} */}
 
           {this.state.loading === 'yes' && <h5>Searching for companies within {this.state.distance} {this.state.units} of {this.state.zipCode}...</h5>}
 
@@ -146,7 +117,6 @@ class Companies extends React.Component {
               </ul>
             </div>
           }
-          {/* {this.state.companies.length && <button onClick={this.clear}>Clear</button>} */}
         </div>
       </div>
     )
